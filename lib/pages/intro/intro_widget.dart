@@ -58,13 +58,14 @@ class _IntroWidgetState extends State<IntroWidget> {
             alignment: const AlignmentDirectional(0.0, 0.0),
             child: Row(
               mainAxisSize: MainAxisSize.max,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Expanded(
                   child: Align(
                     alignment: const AlignmentDirectional(0.0, 0.0),
                     child: Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 30.0),
+                          const EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 30.0),
                       child: Text(
                         'ДОБРЫЕ КНИГИ',
                         textAlign: TextAlign.center,

@@ -77,16 +77,27 @@ class _BritishLionsWidgetState extends State<BritishLionsWidget> {
           ),
           title: Align(
             alignment: const AlignmentDirectional(0.0, 0.0),
-            child: Padding(
-              padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 20.0),
-              child: Text(
-                'БРИТАНСКИЕ ЛЬВЫ',
-                style: FlutterFlowTheme.of(context).headlineMedium.override(
-                      fontFamily: 'Inter',
-                      color: Colors.white,
-                      fontSize: 22.0,
+            child: Row(
+              mainAxisSize: MainAxisSize.max,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Align(
+                  alignment: const AlignmentDirectional(0.0, 0.0),
+                  child: Padding(
+                    padding:
+                        const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 10.0),
+                    child: Text(
+                      'БРИТАНСКИЕ ЛЬВЫ',
+                      style:
+                          FlutterFlowTheme.of(context).headlineMedium.override(
+                                fontFamily: 'Inter',
+                                color: Colors.white,
+                                fontSize: 22.0,
+                              ),
                     ),
-              ),
+                  ),
+                ),
+              ],
             ),
           ),
           actions: const [],
@@ -96,12 +107,13 @@ class _BritishLionsWidgetState extends State<BritishLionsWidget> {
         body: SafeArea(
           top: true,
           child: Align(
-            alignment: const AlignmentDirectional(0.0, 0.0),
+            alignment: const AlignmentDirectional(0.0, -1.0),
             child: Padding(
-              padding: const EdgeInsetsDirectional.fromSTEB(5.0, 20.0, 5.0, 0.0),
+              padding: const EdgeInsetsDirectional.fromSTEB(5.0, 10.0, 5.0, 0.0),
               child: SingleChildScrollView(
                 child: Column(
                   mainAxisSize: MainAxisSize.max,
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Container(
                       constraints: const BoxConstraints(
