@@ -3150,6 +3150,950 @@ class _DonaldBissetWidgetState extends State<DonaldBissetWidget> {
                         ),
                       ),
                     ),
+                    Align(
+                      alignment: const AlignmentDirectional(0.0, 0.0),
+                      child: Padding(
+                        padding:
+                            const EdgeInsetsDirectional.fromSTEB(5.0, 20.0, 5.0, 0.0),
+                        child: InkWell(
+                          splashColor: Colors.transparent,
+                          focusColor: Colors.transparent,
+                          hoverColor: Colors.transparent,
+                          highlightColor: Colors.transparent,
+                          onTap: () async {
+                            context.pushNamed(
+                              'BritishLions',
+                              extra: <String, dynamic>{
+                                kTransitionInfoKey: const TransitionInfo(
+                                  hasTransition: true,
+                                  transitionType:
+                                      PageTransitionType.bottomToTop,
+                                ),
+                              },
+                            );
+                          },
+                          child: Row(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Align(
+                                alignment: const AlignmentDirectional(0.0, 0.0),
+                                child: Padding(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
+                                      20.0, 0.0, 0.0, 0.0),
+                                  child: Container(
+                                    width: 80.0,
+                                    height: 80.0,
+                                    clipBehavior: Clip.antiAlias,
+                                    decoration: const BoxDecoration(
+                                      shape: BoxShape.circle,
+                                    ),
+                                    child: Image.asset(
+                                      'assets/images/britanskie-lvy.jpg.webp',
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Expanded(
+                                child: Align(
+                                  alignment: const AlignmentDirectional(0.0, 0.0),
+                                  child: Padding(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
+                                        30.0, 0.0, 0.0, 0.0),
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      children: [
+                                        Align(
+                                          alignment:
+                                              const AlignmentDirectional(-1.0, 0.0),
+                                          child: Container(
+                                            decoration: const BoxDecoration(),
+                                            child: Padding(
+                                              padding: const EdgeInsetsDirectional
+                                                  .fromSTEB(0.0, 0.0, 0.0, 5.0),
+                                              child: Text(
+                                                'Британские львы',
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      fontFamily: 'Readex Pro',
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .secondaryText,
+                                                      fontSize: 20.0,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                    ),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                        Align(
+                                          alignment:
+                                              const AlignmentDirectional(-1.0, 0.0),
+                                          child: Padding(
+                                            padding:
+                                                const EdgeInsetsDirectional.fromSTEB(
+                                                    0.0, 0.0, 5.0, 0.0),
+                                            child: Container(
+                                              constraints: const BoxConstraints(
+                                                maxWidth: 240.0,
+                                              ),
+                                              decoration: const BoxDecoration(),
+                                              child: Text(
+                                                'Сказка про каменного льва, который вздумал лизать за щеку посетителей музея…',
+                                                textAlign: TextAlign.start,
+                                                maxLines: 3,
+                                                style: GoogleFonts.getFont(
+                                                  'Roboto',
+                                                  color: FlutterFlowTheme.of(
+                                                          context)
+                                                      .secondaryText,
+                                                  fontWeight: FontWeight.w600,
+                                                  fontSize: 10.0,
+                                                ),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+                    Align(
+                      alignment: const AlignmentDirectional(0.0, 0.0),
+                      child: Padding(
+                        padding:
+                            const EdgeInsetsDirectional.fromSTEB(5.0, 20.0, 5.0, 0.0),
+                        child: InkWell(
+                          splashColor: Colors.transparent,
+                          focusColor: Colors.transparent,
+                          hoverColor: Colors.transparent,
+                          highlightColor: Colors.transparent,
+                          onTap: () async {
+                            context.pushNamed(
+                              'KingCross',
+                              extra: <String, dynamic>{
+                                kTransitionInfoKey: const TransitionInfo(
+                                  hasTransition: true,
+                                  transitionType:
+                                      PageTransitionType.bottomToTop,
+                                ),
+                              },
+                            );
+                          },
+                          child: Row(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Align(
+                                alignment: const AlignmentDirectional(0.0, 0.0),
+                                child: Padding(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
+                                      20.0, 0.0, 0.0, 0.0),
+                                  child: Container(
+                                    width: 80.0,
+                                    height: 80.0,
+                                    clipBehavior: Clip.antiAlias,
+                                    decoration: const BoxDecoration(
+                                      shape: BoxShape.circle,
+                                    ),
+                                    child: Image.asset(
+                                      'assets/images/sent-pankras-i-kings-kross.jpg.webp',
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Expanded(
+                                child: Align(
+                                  alignment: const AlignmentDirectional(0.0, 0.0),
+                                  child: Padding(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
+                                        30.0, 0.0, 0.0, 0.0),
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      children: [
+                                        Align(
+                                          alignment:
+                                              const AlignmentDirectional(-1.0, 0.0),
+                                          child: Container(
+                                            decoration: const BoxDecoration(),
+                                            child: Padding(
+                                              padding: const EdgeInsetsDirectional
+                                                  .fromSTEB(0.0, 0.0, 0.0, 5.0),
+                                              child: Text(
+                                                'Сент-Панкрас и Кингс-Кросс',
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      fontFamily: 'Readex Pro',
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .secondaryText,
+                                                      fontSize: 20.0,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                    ),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                        Align(
+                                          alignment:
+                                              const AlignmentDirectional(-1.0, 0.0),
+                                          child: Padding(
+                                            padding:
+                                                const EdgeInsetsDirectional.fromSTEB(
+                                                    0.0, 0.0, 5.0, 0.0),
+                                            child: Container(
+                                              constraints: const BoxConstraints(
+                                                maxWidth: 240.0,
+                                              ),
+                                              decoration: const BoxDecoration(),
+                                              child: Text(
+                                                'Сказка о споре двух вокзалов и о мудром решении этого спора мэром города и королевой…',
+                                                textAlign: TextAlign.start,
+                                                maxLines: 3,
+                                                style: GoogleFonts.getFont(
+                                                  'Roboto',
+                                                  color: FlutterFlowTheme.of(
+                                                          context)
+                                                      .secondaryText,
+                                                  fontWeight: FontWeight.w600,
+                                                  fontSize: 10.0,
+                                                ),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+                    Align(
+                      alignment: const AlignmentDirectional(0.0, 0.0),
+                      child: Padding(
+                        padding:
+                            const EdgeInsetsDirectional.fromSTEB(5.0, 20.0, 5.0, 0.0),
+                        child: InkWell(
+                          splashColor: Colors.transparent,
+                          focusColor: Colors.transparent,
+                          hoverColor: Colors.transparent,
+                          highlightColor: Colors.transparent,
+                          onTap: () async {
+                            context.pushNamed(
+                              'HappyRegi',
+                              extra: <String, dynamic>{
+                                kTransitionInfoKey: const TransitionInfo(
+                                  hasTransition: true,
+                                  transitionType:
+                                      PageTransitionType.bottomToTop,
+                                ),
+                              },
+                            );
+                          },
+                          child: Row(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Align(
+                                alignment: const AlignmentDirectional(0.0, 0.0),
+                                child: Padding(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
+                                      20.0, 0.0, 0.0, 0.0),
+                                  child: Container(
+                                    width: 80.0,
+                                    height: 80.0,
+                                    clipBehavior: Clip.antiAlias,
+                                    decoration: const BoxDecoration(
+                                      shape: BoxShape.circle,
+                                    ),
+                                    child: Image.asset(
+                                      'assets/images/schastlivyy-redzhinald.jpg.webp',
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Expanded(
+                                child: Align(
+                                  alignment: const AlignmentDirectional(0.0, 0.0),
+                                  child: Padding(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
+                                        30.0, 0.0, 0.0, 0.0),
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      children: [
+                                        Align(
+                                          alignment:
+                                              const AlignmentDirectional(-1.0, 0.0),
+                                          child: Container(
+                                            decoration: const BoxDecoration(),
+                                            child: Padding(
+                                              padding: const EdgeInsetsDirectional
+                                                  .fromSTEB(0.0, 0.0, 0.0, 5.0),
+                                              child: Text(
+                                                'Счастливый Реджинальд',
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      fontFamily: 'Readex Pro',
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .secondaryText,
+                                                      fontSize: 20.0,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                    ),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                        Align(
+                                          alignment:
+                                              const AlignmentDirectional(-1.0, 0.0),
+                                          child: Padding(
+                                            padding:
+                                                const EdgeInsetsDirectional.fromSTEB(
+                                                    0.0, 0.0, 5.0, 0.0),
+                                            child: Container(
+                                              constraints: const BoxConstraints(
+                                                maxWidth: 240.0,
+                                              ),
+                                              decoration: const BoxDecoration(),
+                                              child: Text(
+                                                'Сказка про то, как конь Реджинальд осуществил свою мечту и сыграл в симфоническом оркестре…',
+                                                textAlign: TextAlign.start,
+                                                maxLines: 3,
+                                                style: GoogleFonts.getFont(
+                                                  'Roboto',
+                                                  color: FlutterFlowTheme.of(
+                                                          context)
+                                                      .secondaryText,
+                                                  fontWeight: FontWeight.w600,
+                                                  fontSize: 10.0,
+                                                ),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+                    Align(
+                      alignment: const AlignmentDirectional(0.0, 0.0),
+                      child: Padding(
+                        padding:
+                            const EdgeInsetsDirectional.fromSTEB(5.0, 20.0, 5.0, 0.0),
+                        child: InkWell(
+                          splashColor: Colors.transparent,
+                          focusColor: Colors.transparent,
+                          hoverColor: Colors.transparent,
+                          highlightColor: Colors.transparent,
+                          onTap: () async {
+                            context.pushNamed(
+                              'TigerBath',
+                              extra: <String, dynamic>{
+                                kTransitionInfoKey: const TransitionInfo(
+                                  hasTransition: true,
+                                  transitionType:
+                                      PageTransitionType.bottomToTop,
+                                ),
+                              },
+                            );
+                          },
+                          child: Row(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Align(
+                                alignment: const AlignmentDirectional(0.0, 0.0),
+                                child: Padding(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
+                                      20.0, 0.0, 0.0, 0.0),
+                                  child: Container(
+                                    width: 80.0,
+                                    height: 80.0,
+                                    clipBehavior: Clip.antiAlias,
+                                    decoration: const BoxDecoration(
+                                      shape: BoxShape.circle,
+                                    ),
+                                    child: Image.asset(
+                                      'assets/images/pro-tigrenka-ljubivshego-prinimat-vannu1.jpg.webp',
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Expanded(
+                                child: Align(
+                                  alignment: const AlignmentDirectional(0.0, 0.0),
+                                  child: Padding(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
+                                        30.0, 0.0, 0.0, 0.0),
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      children: [
+                                        Align(
+                                          alignment:
+                                              const AlignmentDirectional(-1.0, 0.0),
+                                          child: Container(
+                                            decoration: const BoxDecoration(),
+                                            child: Padding(
+                                              padding: const EdgeInsetsDirectional
+                                                  .fromSTEB(0.0, 0.0, 0.0, 5.0),
+                                              child: Text(
+                                                'Про тигренка, любившего принимать ванну',
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      fontFamily: 'Readex Pro',
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .secondaryText,
+                                                      fontSize: 20.0,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                    ),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                        Align(
+                                          alignment:
+                                              const AlignmentDirectional(-1.0, 0.0),
+                                          child: Padding(
+                                            padding:
+                                                const EdgeInsetsDirectional.fromSTEB(
+                                                    0.0, 0.0, 5.0, 0.0),
+                                            child: Container(
+                                              constraints: const BoxConstraints(
+                                                maxWidth: 240.0,
+                                              ),
+                                              decoration: const BoxDecoration(),
+                                              child: Text(
+                                                'Сказка про тигренка, который любил очень долго принимать ванну. Это очень расстраивало мистера и миссис Смит, так как надо было купать их маленькую дочку. Тогда мистер Смит придумал небольшую хитрость.',
+                                                textAlign: TextAlign.start,
+                                                maxLines: 3,
+                                                style: GoogleFonts.getFont(
+                                                  'Roboto',
+                                                  color: FlutterFlowTheme.of(
+                                                          context)
+                                                      .secondaryText,
+                                                  fontWeight: FontWeight.w600,
+                                                  fontSize: 10.0,
+                                                ),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+                    Align(
+                      alignment: const AlignmentDirectional(0.0, 0.0),
+                      child: Padding(
+                        padding:
+                            const EdgeInsetsDirectional.fromSTEB(5.0, 20.0, 5.0, 0.0),
+                        child: InkWell(
+                          splashColor: Colors.transparent,
+                          focusColor: Colors.transparent,
+                          hoverColor: Colors.transparent,
+                          highlightColor: Colors.transparent,
+                          onTap: () async {
+                            context.pushNamed(
+                              'TigerBlinky',
+                              extra: <String, dynamic>{
+                                kTransitionInfoKey: const TransitionInfo(
+                                  hasTransition: true,
+                                  transitionType:
+                                      PageTransitionType.bottomToTop,
+                                ),
+                              },
+                            );
+                          },
+                          child: Row(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Align(
+                                alignment: const AlignmentDirectional(0.0, 0.0),
+                                child: Padding(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
+                                      20.0, 0.0, 0.0, 0.0),
+                                  child: Container(
+                                    width: 80.0,
+                                    height: 80.0,
+                                    clipBehavior: Clip.antiAlias,
+                                    decoration: const BoxDecoration(
+                                      shape: BoxShape.circle,
+                                    ),
+                                    child: Image.asset(
+                                      'assets/images/pro-tigrenka-binki-u-kotorogo-ischezli-vse-poloski2.jpg.webp',
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Expanded(
+                                child: Align(
+                                  alignment: const AlignmentDirectional(0.0, 0.0),
+                                  child: Padding(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
+                                        30.0, 0.0, 0.0, 0.0),
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      children: [
+                                        Align(
+                                          alignment:
+                                              const AlignmentDirectional(-1.0, 0.0),
+                                          child: Container(
+                                            decoration: const BoxDecoration(),
+                                            child: Padding(
+                                              padding: const EdgeInsetsDirectional
+                                                  .fromSTEB(0.0, 0.0, 0.0, 5.0),
+                                              child: Text(
+                                                'Про тигренка Бинки у которого исчезли все полоски',
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      fontFamily: 'Readex Pro',
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .secondaryText,
+                                                      fontSize: 20.0,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                    ),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                        Align(
+                                          alignment:
+                                              const AlignmentDirectional(-1.0, 0.0),
+                                          child: Padding(
+                                            padding:
+                                                const EdgeInsetsDirectional.fromSTEB(
+                                                    0.0, 0.0, 5.0, 0.0),
+                                            child: Container(
+                                              constraints: const BoxConstraints(
+                                                maxWidth: 240.0,
+                                              ),
+                                              decoration: const BoxDecoration(),
+                                              child: Text(
+                                                'Сказка про тигренка, на спинку которого насыпалась мука и сахарная пудра и его полоски исчезли. Он побежал искать себе полоски',
+                                                textAlign: TextAlign.start,
+                                                maxLines: 3,
+                                                style: GoogleFonts.getFont(
+                                                  'Roboto',
+                                                  color: FlutterFlowTheme.of(
+                                                          context)
+                                                      .secondaryText,
+                                                  fontWeight: FontWeight.w600,
+                                                  fontSize: 10.0,
+                                                ),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+                    Align(
+                      alignment: const AlignmentDirectional(0.0, 0.0),
+                      child: Padding(
+                        padding:
+                            const EdgeInsetsDirectional.fromSTEB(5.0, 20.0, 5.0, 0.0),
+                        child: InkWell(
+                          splashColor: Colors.transparent,
+                          focusColor: Colors.transparent,
+                          hoverColor: Colors.transparent,
+                          highlightColor: Colors.transparent,
+                          onTap: () async {
+                            context.pushNamed(
+                              'AntSugar',
+                              extra: <String, dynamic>{
+                                kTransitionInfoKey: const TransitionInfo(
+                                  hasTransition: true,
+                                  transitionType:
+                                      PageTransitionType.bottomToTop,
+                                ),
+                              },
+                            );
+                          },
+                          child: Row(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Align(
+                                alignment: const AlignmentDirectional(0.0, 0.0),
+                                child: Padding(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
+                                      20.0, 0.0, 0.0, 0.0),
+                                  child: Container(
+                                    width: 80.0,
+                                    height: 80.0,
+                                    clipBehavior: Clip.antiAlias,
+                                    decoration: const BoxDecoration(
+                                      shape: BoxShape.circle,
+                                    ),
+                                    child: Image.asset(
+                                      'assets/images/muravej-i-sakhar1.jpg.webp',
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Expanded(
+                                child: Align(
+                                  alignment: const AlignmentDirectional(0.0, 0.0),
+                                  child: Padding(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
+                                        30.0, 0.0, 0.0, 0.0),
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      children: [
+                                        Align(
+                                          alignment:
+                                              const AlignmentDirectional(-1.0, 0.0),
+                                          child: Container(
+                                            decoration: const BoxDecoration(),
+                                            child: Padding(
+                                              padding: const EdgeInsetsDirectional
+                                                  .fromSTEB(0.0, 0.0, 0.0, 5.0),
+                                              child: Text(
+                                                'Муравей и сахар',
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      fontFamily: 'Readex Pro',
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .secondaryText,
+                                                      fontSize: 20.0,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                    ),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                        Align(
+                                          alignment:
+                                              const AlignmentDirectional(-1.0, 0.0),
+                                          child: Padding(
+                                            padding:
+                                                const EdgeInsetsDirectional.fromSTEB(
+                                                    0.0, 0.0, 5.0, 0.0),
+                                            child: Container(
+                                              constraints: const BoxConstraints(
+                                                maxWidth: 240.0,
+                                              ),
+                                              decoration: const BoxDecoration(),
+                                              child: Text(
+                                                'Сказка про муравья Томаса, который забрался в кухонный буфет полакомиться сахаром, но не смог выбраться от туда, так как очень растолстел.',
+                                                textAlign: TextAlign.start,
+                                                maxLines: 3,
+                                                style: GoogleFonts.getFont(
+                                                  'Roboto',
+                                                  color: FlutterFlowTheme.of(
+                                                          context)
+                                                      .secondaryText,
+                                                  fontWeight: FontWeight.w600,
+                                                  fontSize: 10.0,
+                                                ),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+                    Align(
+                      alignment: const AlignmentDirectional(0.0, 0.0),
+                      child: Padding(
+                        padding:
+                            const EdgeInsetsDirectional.fromSTEB(5.0, 20.0, 5.0, 0.0),
+                        child: InkWell(
+                          splashColor: Colors.transparent,
+                          focusColor: Colors.transparent,
+                          hoverColor: Colors.transparent,
+                          highlightColor: Colors.transparent,
+                          onTap: () async {
+                            context.pushNamed(
+                              'JoeJane',
+                              extra: <String, dynamic>{
+                                kTransitionInfoKey: const TransitionInfo(
+                                  hasTransition: true,
+                                  transitionType:
+                                      PageTransitionType.bottomToTop,
+                                ),
+                              },
+                            );
+                          },
+                          child: Row(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Align(
+                                alignment: const AlignmentDirectional(0.0, 0.0),
+                                child: Padding(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
+                                      20.0, 0.0, 0.0, 0.0),
+                                  child: Container(
+                                    width: 80.0,
+                                    height: 80.0,
+                                    clipBehavior: Clip.antiAlias,
+                                    decoration: const BoxDecoration(
+                                      shape: BoxShape.circle,
+                                    ),
+                                    child: Image.asset(
+                                      'assets/images/pingvin-dzho-i-cherepakha-dzhejn1.jpg.webp',
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Expanded(
+                                child: Align(
+                                  alignment: const AlignmentDirectional(0.0, 0.0),
+                                  child: Padding(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
+                                        30.0, 0.0, 0.0, 0.0),
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      children: [
+                                        Align(
+                                          alignment:
+                                              const AlignmentDirectional(-1.0, 0.0),
+                                          child: Container(
+                                            decoration: const BoxDecoration(),
+                                            child: Padding(
+                                              padding: const EdgeInsetsDirectional
+                                                  .fromSTEB(0.0, 0.0, 0.0, 5.0),
+                                              child: Text(
+                                                'Пингвинчик Джо и Черепашка Джейн',
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      fontFamily: 'Readex Pro',
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .secondaryText,
+                                                      fontSize: 20.0,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                    ),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                        Align(
+                                          alignment:
+                                              const AlignmentDirectional(-1.0, 0.0),
+                                          child: Padding(
+                                            padding:
+                                                const EdgeInsetsDirectional.fromSTEB(
+                                                    0.0, 0.0, 5.0, 0.0),
+                                            child: Container(
+                                              constraints: const BoxConstraints(
+                                                maxWidth: 240.0,
+                                              ),
+                                              decoration: const BoxDecoration(),
+                                              child: Text(
+                                                'Сказка о приключениях пингвинчика Джо, который на айсберге доплыл до Карибского моря и там подружился с черепахой Джейн.',
+                                                textAlign: TextAlign.start,
+                                                maxLines: 3,
+                                                style: GoogleFonts.getFont(
+                                                  'Roboto',
+                                                  color: FlutterFlowTheme.of(
+                                                          context)
+                                                      .secondaryText,
+                                                  fontWeight: FontWeight.w600,
+                                                  fontSize: 10.0,
+                                                ),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+                    Align(
+                      alignment: const AlignmentDirectional(0.0, 0.0),
+                      child: Padding(
+                        padding:
+                            const EdgeInsetsDirectional.fromSTEB(5.0, 20.0, 5.0, 0.0),
+                        child: InkWell(
+                          splashColor: Colors.transparent,
+                          focusColor: Colors.transparent,
+                          hoverColor: Colors.transparent,
+                          highlightColor: Colors.transparent,
+                          onTap: () async {
+                            context.pushNamed(
+                              'Gagaga',
+                              extra: <String, dynamic>{
+                                kTransitionInfoKey: const TransitionInfo(
+                                  hasTransition: true,
+                                  transitionType:
+                                      PageTransitionType.bottomToTop,
+                                ),
+                              },
+                            );
+                          },
+                          child: Row(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Align(
+                                alignment: const AlignmentDirectional(0.0, 0.0),
+                                child: Padding(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
+                                      20.0, 0.0, 0.0, 0.0),
+                                  child: Container(
+                                    width: 80.0,
+                                    height: 80.0,
+                                    clipBehavior: Clip.antiAlias,
+                                    decoration: const BoxDecoration(
+                                      shape: BoxShape.circle,
+                                    ),
+                                    child: Image.asset(
+                                      'assets/images/ga-ga-ga5-1.jpg.webp',
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Expanded(
+                                child: Align(
+                                  alignment: const AlignmentDirectional(0.0, 0.0),
+                                  child: Padding(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
+                                        30.0, 0.0, 0.0, 0.0),
+                                    child: Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      children: [
+                                        Align(
+                                          alignment:
+                                              const AlignmentDirectional(-1.0, 0.0),
+                                          child: Container(
+                                            decoration: const BoxDecoration(),
+                                            child: Padding(
+                                              padding: const EdgeInsetsDirectional
+                                                  .fromSTEB(0.0, 0.0, 0.0, 5.0),
+                                              child: Text(
+                                                'Га-га-га',
+                                                style: FlutterFlowTheme.of(
+                                                        context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      fontFamily: 'Readex Pro',
+                                                      color:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .secondaryText,
+                                                      fontSize: 20.0,
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                    ),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                        Align(
+                                          alignment:
+                                              const AlignmentDirectional(-1.0, 0.0),
+                                          child: Padding(
+                                            padding:
+                                                const EdgeInsetsDirectional.fromSTEB(
+                                                    0.0, 0.0, 5.0, 0.0),
+                                            child: Container(
+                                              constraints: const BoxConstraints(
+                                                maxWidth: 240.0,
+                                              ),
+                                              decoration: const BoxDecoration(),
+                                              child: Text(
+                                                'Сказка про гусенка Вилли, который очень любил гагагакать. Однажды он пошел прогуляться и хотел с кем-нибудь поговорить, но все отвечали ему на непонятном языке…',
+                                                textAlign: TextAlign.start,
+                                                maxLines: 3,
+                                                style: GoogleFonts.getFont(
+                                                  'Roboto',
+                                                  color: FlutterFlowTheme.of(
+                                                          context)
+                                                      .secondaryText,
+                                                  fontWeight: FontWeight.w600,
+                                                  fontSize: 10.0,
+                                                ),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ],

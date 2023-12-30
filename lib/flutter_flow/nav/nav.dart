@@ -180,6 +180,46 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'BugPhilosopher',
           path: '/bugPhilosopher',
           builder: (context, params) => const BugPhilosopherWidget(),
+        ),
+        FFRoute(
+          name: 'BritishLions',
+          path: '/britishLions',
+          builder: (context, params) => const BritishLionsWidget(),
+        ),
+        FFRoute(
+          name: 'KingCross',
+          path: '/kingCross',
+          builder: (context, params) => const KingCrossWidget(),
+        ),
+        FFRoute(
+          name: 'HappyRegi',
+          path: '/happyRegi',
+          builder: (context, params) => const HappyRegiWidget(),
+        ),
+        FFRoute(
+          name: 'TigerBath',
+          path: '/tigerBath',
+          builder: (context, params) => const TigerBathWidget(),
+        ),
+        FFRoute(
+          name: 'TigerBlinky',
+          path: '/tigerBlinky',
+          builder: (context, params) => const TigerBlinkyWidget(),
+        ),
+        FFRoute(
+          name: 'AntSugar',
+          path: '/antSugar',
+          builder: (context, params) => const AntSugarWidget(),
+        ),
+        FFRoute(
+          name: 'JoeJane',
+          path: '/joeJane',
+          builder: (context, params) => const JoeJaneWidget(),
+        ),
+        FFRoute(
+          name: 'Gagaga',
+          path: '/gagaga',
+          builder: (context, params) => const GagagaWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

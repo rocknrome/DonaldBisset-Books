@@ -36,7 +36,8 @@ export '/pages/donald_bisset_stories/rolly_polly/rolly_polly_widget.dart'
     show RollyPollyWidget;
 export '/pages/donald_bisset_stories/ennabel/ennabel_widget.dart'
     show EnnabelWidget;
-export '/pages/breadcrumbs/breadcrumbs_widget.dart' show BreadcrumbsWidget;
+export '/pages/donald_bisset_stories/breadcrumbs/breadcrumbs_widget.dart'
+    show BreadcrumbsWidget;
 export '/pages/donald_bisset_stories/first_snow/first_snow_widget.dart'
     show FirstSnowWidget;
 export '/pages/donald_bisset_stories/eagle_sheep/eagle_sheep_widget.dart'
@@ -49,3 +50,19 @@ export '/pages/donald_bisset_stories/blacky_reddy/blacky_reddy_widget.dart'
 export '/pages/donald_bisset_stories/hopp/hopp_widget.dart' show HoppWidget;
 export '/pages/donald_bisset_stories/bug_philosopher/bug_philosopher_widget.dart'
     show BugPhilosopherWidget;
+export '/pages/donald_bisset_stories/british_lions/british_lions_widget.dart'
+    show BritishLionsWidget;
+export '/pages/donald_bisset_stories/king_cross/king_cross_widget.dart'
+    show KingCrossWidget;
+export '/pages/donald_bisset_stories/happy_regi/happy_regi_widget.dart'
+    show HappyRegiWidget;
+export '/pages/donald_bisset_stories/tiger_bath/tiger_bath_widget.dart'
+    show TigerBathWidget;
+export '/pages/donald_bisset_stories/tiger_blinky/tiger_blinky_widget.dart'
+    show TigerBlinkyWidget;
+export '/pages/donald_bisset_stories/ant_sugar/ant_sugar_widget.dart'
+    show AntSugarWidget;
+export '/pages/donald_bisset_stories/joe_jane/joe_jane_widget.dart'
+    show JoeJaneWidget;
+export '/pages/donald_bisset_stories/gagaga/gagaga_widget.dart'
+    show GagagaWidget;
