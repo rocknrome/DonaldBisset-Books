@@ -109,7 +109,7 @@ class _DragonComodoWidgetState extends State<DragonComodoWidget> {
           child: Align(
             alignment: const AlignmentDirectional(0.0, -1.0),
             child: Padding(
-              padding: const EdgeInsetsDirectional.fromSTEB(5.0, 10.0, 5.0, 0.0),
+              padding: const EdgeInsetsDirectional.fromSTEB(5.0, 20.0, 5.0, 0.0),
               child: SingleChildScrollView(
                 child: Column(
                   mainAxisSize: MainAxisSize.max,
@@ -125,19 +125,19 @@ class _DragonComodoWidgetState extends State<DragonComodoWidget> {
                         padding:
                             const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
                         child: AutoSizeText(
-                          'Жил-был на свете дракон. Звали его Комодо.\nОн умел извергать огонь, и поэтому все окрестные жители его боялись. Заслышав его шаги, все разбегались и прятались.\n\nА шаги его было мудрено не услышать, потому что Комодо носил сразу три пары башмаков – у драконов ведь шесть ног! – и все шесть башмаков вместе, да ещё каждый башмак в отдельности, ужасно скрипели.\n\nНо вот однажды Комодо повстречал девочку Сьюзи, которая его ничуть не испугалась.\n\n– Зачем ты извергаешь огонь? – спросила она. – Ты же всех пугаешь!\n\n– Ну, – ответил дракон, – я… хм… я не знаю. Как-то не думал об этом. А что, больше не надо пугать?\n\n– Конечно, не надо, – сказала Сьюзи.\n\n– Ладно, не буду, — пообещал Комодо.',
+                          'Жил-был на свете дракон. Звали его Комодо.\n\nОн умел извергать огонь, и поэтому все окрестные жители его боялись. \n\nЗаслышав его шаги, все разбегались и прятались.\n\nА шаги его было мудрено не услышать, потому что Комодо носил сразу три пары башмаков – у драконов ведь шесть ног! – и все шесть башмаков вместе, да ещё каждый башмак в отдельности, ужасно скрипели.\n\nНо вот однажды Комодо повстречал девочку Сьюзи, которая его ничуть не испугалась.\n\n– Зачем ты извергаешь огонь? – спросила она. – Ты же всех пугаешь!\n\n– Ну, – ответил дракон, – я… хм… я не знаю. Как-то не думал об этом. А что, больше не надо пугать?\n\n– Конечно, не надо, – сказала Сьюзи.\n\n– Ладно, не буду, — пообещал Комодо.',
                           textAlign: TextAlign.start,
                           style: GoogleFonts.getFont(
                             'Roboto',
                             color: FlutterFlowTheme.of(context).primaryText,
-                            fontSize: 12.0,
+                            fontSize: 20.0,
                           ),
                         ),
                       ),
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(5.0, 5.0, 5.0, 15.0),
+                          const EdgeInsetsDirectional.fromSTEB(5.0, 10.0, 5.0, 15.0),
                       child: InkWell(
                         splashColor: Colors.transparent,
                         focusColor: Colors.transparent,
@@ -179,17 +179,17 @@ class _DragonComodoWidgetState extends State<DragonComodoWidget> {
                       padding:
                           const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
                       child: Text(
-                        'Они попрощались, и Сьюзи пошла домой. Уже стемнело, но фонарщик Чарли почему-то не зажигал огней, и прохожие не знали толком, куда им идти.\n\nОказывается, Чарли даже не вставал в этот день с постели. Он слишком устал накануне вечером и не успел ещё как следует отдохнуть. Он крепко спал и жевал во сне бутерброд.',
+                        'Они попрощались, и Сьюзи пошла домой. \n\nУже стемнело, но фонарщик Чарли почему-то не зажигал огней, и прохожие не знали толком, куда им идти.\n\nОказывается, Чарли даже не вставал в этот день с постели. \n\nОн слишком устал накануне вечером и не успел ещё как следует отдохнуть. \n\nОн крепко спал и жевал во сне бутерброд.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(5.0, 5.0, 5.0, 15.0),
+                          const EdgeInsetsDirectional.fromSTEB(5.0, 10.0, 5.0, 15.0),
                       child: InkWell(
                         splashColor: Colors.transparent,
                         focusColor: Colors.transparent,
@@ -231,17 +231,17 @@ class _DragonComodoWidgetState extends State<DragonComodoWidget> {
                       padding:
                           const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
                       child: Text(
-                        'А мэр города, сэр Уильям, очень сердился. Он не знал, как зажечь уличные фонари.\n\nИ тут Сьюзи пришла в голову удачная мысль. Она побежала назад, к пещере Комодо, и привела дракона в город. Они вдвоём обошли все улицы; дракон извергал огонь и зажигал подряд все фонари.',
+                        'А мэр города, сэр Уильям, очень сердился. Он не знал, как зажечь уличные фонари.\n\nИ тут Сьюзи пришла в голову удачная мысль. \n\nОна побежала назад, к пещере Комодо, и привела дракона в город. \n\nОни вдвоём обошли все улицы; дракон извергал огонь и зажигал подряд все фонари.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(5.0, 5.0, 5.0, 15.0),
+                          const EdgeInsetsDirectional.fromSTEB(5.0, 10.0, 5.0, 15.0),
                       child: InkWell(
                         splashColor: Colors.transparent,
                         focusColor: Colors.transparent,
@@ -281,14 +281,14 @@ class _DragonComodoWidgetState extends State<DragonComodoWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 20.0),
                       child: Text(
-                        'Жители города очень обрадовались. С тех пор они совсем перестали бояться дракона. И каждый год, когда фонарщик Чарли уезжал в отпуск, они звали Комодо зажигать на улицах города фонари.',
+                        'Жители города очень обрадовались. \n\nС тех пор они совсем перестали бояться дракона. \n\nИ каждый год, когда фонарщик Чарли уезжал в отпуск, они звали Комодо зажигать на улицах города фонари.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),

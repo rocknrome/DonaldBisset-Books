@@ -3,7 +3,6 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:share_plus/share_plus.dart';
 import 'home_model.dart';
 export 'home_model.dart';
 
@@ -140,51 +139,36 @@ class _HomeWidgetState extends State<HomeWidget> {
             shrinkWrap: true,
             scrollDirection: Axis.vertical,
             children: [
-              Builder(
-                builder: (context) => InkWell(
-                  splashColor: Colors.transparent,
-                  focusColor: Colors.transparent,
-                  hoverColor: Colors.transparent,
-                  highlightColor: Colors.transparent,
-                  onTap: () async {
-                    await Share.share(
-                      '',
-                      sharePositionOrigin: getWidgetBoundingBox(context),
-                    );
-                  },
-                  child: Column(
-                    mainAxisSize: MainAxisSize.max,
-                    children: [
-                      Padding(
-                        padding:
-                            const EdgeInsetsDirectional.fromSTEB(5.0, 0.0, 5.0, 0.0),
-                        child: InkWell(
-                          splashColor: Colors.transparent,
-                          focusColor: Colors.transparent,
-                          hoverColor: Colors.transparent,
-                          highlightColor: Colors.transparent,
-                          onTap: () async {
-                            context.pushNamed('DonaldBisset');
-                          },
-                          child: ClipRRect(
-                            borderRadius: BorderRadius.circular(8.0),
-                            child: Image.asset(
-                              'assets/images/index_cover_1.jpg',
-                              width: double.infinity,
-                              height: 390.0,
-                              fit: BoxFit.cover,
-                              alignment: const Alignment(0.0, 0.0),
-                            ),
-                          ),
+              Column(
+                mainAxisSize: MainAxisSize.max,
+                children: [
+                  Padding(
+                    padding: const EdgeInsetsDirectional.fromSTEB(5.0, 0.0, 5.0, 0.0),
+                    child: InkWell(
+                      splashColor: Colors.transparent,
+                      focusColor: Colors.transparent,
+                      hoverColor: Colors.transparent,
+                      highlightColor: Colors.transparent,
+                      onTap: () async {
+                        context.pushNamed('DonaldBisset');
+                      },
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(8.0),
+                        child: Image.asset(
+                          'assets/images/index_cover_1.jpg',
+                          width: double.infinity,
+                          height: 390.0,
+                          fit: BoxFit.cover,
+                          alignment: const Alignment(0.0, 0.0),
                         ),
                       ),
-                      Text(
-                        'https://romanlab.dev/',
-                        style: FlutterFlowTheme.of(context).bodyMedium,
-                      ),
-                    ],
+                    ),
                   ),
-                ),
+                  Text(
+                    'https://romanlab.dev/',
+                    style: FlutterFlowTheme.of(context).bodyMedium,
+                  ),
+                ],
               ),
             ],
           ),

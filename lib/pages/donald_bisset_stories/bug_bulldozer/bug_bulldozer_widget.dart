@@ -55,16 +55,16 @@ class _BugBulldozerWidgetState extends State<BugBulldozerWidget> {
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         appBar: AppBar(
-          backgroundColor: const Color(0xFFD3CE01),
+          backgroundColor: const Color(0xFFE35818),
           automaticallyImplyLeading: false,
           leading: Padding(
             padding: const EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 10.0),
             child: FlutterFlowIconButton(
-              borderColor: const Color(0xFFD3CE01),
+              borderColor: const Color(0xFFE35818),
               borderRadius: 20.0,
               borderWidth: 1.0,
               buttonSize: 40.0,
-              fillColor: const Color(0xFFD3CE01),
+              fillColor: const Color(0xFFE35818),
               icon: Icon(
                 Icons.arrow_back_ios_new,
                 color: FlutterFlowTheme.of(context).alternate,
@@ -109,7 +109,7 @@ class _BugBulldozerWidgetState extends State<BugBulldozerWidget> {
           child: Align(
             alignment: const AlignmentDirectional(0.0, -1.0),
             child: Padding(
-              padding: const EdgeInsetsDirectional.fromSTEB(5.0, 10.0, 5.0, 0.0),
+              padding: const EdgeInsetsDirectional.fromSTEB(5.0, 20.0, 5.0, 0.0),
               child: SingleChildScrollView(
                 child: Column(
                   mainAxisSize: MainAxisSize.max,
@@ -125,19 +125,19 @@ class _BugBulldozerWidgetState extends State<BugBulldozerWidget> {
                         padding:
                             const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
                         child: AutoSizeText(
-                          'Однажды тигр, которого звали Сэм, лежал на кровати и крепко спал.\nЖарило солнце, день был душный, но Сэм спал спокойно. Он был такой лентяй, что мог проспать хоть целый день.\nВ это время мимо проползал жук Уильям. – У-ух, вот это кровать! Какая прелесть! Он залез в кровать и улёгся рядом с Сэмом. Скоро он тоже уснул.\nКогда Сэм проснулся, он очень удивился, увидев рядом Билли. (Это ласкательное от Уильям.) Он не выносил, чтобы к нему в постель заползали жуки. И, набрав побольше воздуха, он дунул на жука. Уильям тут же проснулся.',
+                          'Однажды тигр, которого звали Сэм, лежал на кровати и крепко спал.\n\nЖарило солнце, день был душный, но Сэм спал спокойно. \n\nОн был такой лентяй, что мог проспать хоть целый день.\n\nВ это время мимо проползал жук Уильям. \n\n– У-ух, вот это кровать! Какая прелесть! \n\nОн залез в кровать и улёгся рядом с Сэмом. Скоро он тоже уснул.\n\nКогда Сэм проснулся, он очень удивился, увидев рядом Билли. (Это ласкательное от Уильям.) \n\nОн не выносил, чтобы к нему в постель заползали жуки. И, набрав побольше воздуха, он дунул на жука. \n\nУильям тут же проснулся.',
                           textAlign: TextAlign.start,
                           style: GoogleFonts.getFont(
                             'Roboto',
                             color: FlutterFlowTheme.of(context).primaryText,
-                            fontSize: 12.0,
+                            fontSize: 20.0,
                           ),
                         ),
                       ),
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(5.0, 5.0, 5.0, 15.0),
+                          const EdgeInsetsDirectional.fromSTEB(5.0, 10.0, 5.0, 15.0),
                       child: InkWell(
                         splashColor: Colors.transparent,
                         focusColor: Colors.transparent,
@@ -179,17 +179,17 @@ class _BugBulldozerWidgetState extends State<BugBulldozerWidget> {
                       padding:
                           const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
                       child: Text(
-                        'Как сегодня ветрено! – подумал он и вцепился всеми своими лапками в простыню.\nСэм дунул сильнее, но выдуть Уильяма из постели всё равно не удалось.\nТогда он решил:\nЕсли я его лизну, он, наверное, подумает, что пошёл дождь, выползет из постели и побежит домой.\nИ тигр лизнул жука.\n– Ой, кажется, дождь пошёл! – сказал Билли, но, вместо того чтобы выползти, забился поглубже.\nБедняжка Сэм! Не удалось ему прогнать Билли из своей кровати. И он отправился через\nлес к дому, где стоял бульдозер.',
+                        'Как сегодня ветрено! – подумал он и вцепился всеми своими лапками в простыню.\n\nСэм дунул сильнее, но выдуть Уильяма из постели всё равно не удалось.\n\nТогда он решил:\n\nЕсли я его лизну, он, наверное, подумает, что пошёл дождь, выползет из постели и побежит домой.\n\nИ тигр лизнул жука.\n\n– Ой, кажется, дождь пошёл! – сказал Билли, но, вместо того чтобы выползти, забился поглубже.\n\nБедняжка Сэм! Не удалось ему прогнать Билли из своей кровати. И он отправился через лес к дому, где стоял бульдозер.\n',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(5.0, 5.0, 5.0, 15.0),
+                          const EdgeInsetsDirectional.fromSTEB(5.0, 10.0, 5.0, 15.0),
                       child: InkWell(
                         splashColor: Colors.transparent,
                         focusColor: Colors.transparent,
@@ -231,17 +231,17 @@ class _BugBulldozerWidgetState extends State<BugBulldozerWidget> {
                       padding:
                           const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
                       child: Text(
-                        'Его звали Батч.\n– Батч, помоги мне, пожалуйста, выгнать из кровати жука! – попросил его Сэм.\n– С удовольствием! – сказал Батч.\nОни пошли к тому месту, где стояла кровать Сэма, и Батч попробовал выгнать Билли из постели.\nНо Билли держался крепко. Вокруг собрались все лесные звери, чтобы посмотреть, как Батч будет выгонять Билли.\nБорьба завязалась жестокая. Батч выгонял, а Билли не выгонялся. Этот его – сюда, а тот – обратно!',
+                        'Его звали Батч.\n\n– Батч, помоги мне, пожалуйста, выгнать из кровати жука! – попросил его Сэм.\n\n– С удовольствием! – сказал Батч.\n\nОни пошли к тому месту, где стояла кровать Сэма, и Батч попробовал выгнать Билли из постели.\n\nНо Билли держался крепко. \n\nВокруг собрались все лесные звери, чтобы посмотреть, как Батч будет выгонять Билли.\n\nБорьба завязалась жестокая. \n\nБатч выгонял, а Билли не выгонялся. \n\nЭтот его – сюда, а тот – обратно!',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(5.0, 5.0, 5.0, 15.0),
+                          const EdgeInsetsDirectional.fromSTEB(5.0, 10.0, 5.0, 15.0),
                       child: InkWell(
                         splashColor: Colors.transparent,
                         focusColor: Colors.transparent,
@@ -283,18 +283,18 @@ class _BugBulldozerWidgetState extends State<BugBulldozerWidget> {
                       padding:
                           const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
                       child: Text(
-                        'Наконец всё-таки выгнал. И Билли помчался домой, чтобы рассказать братьям и сестрам о своей великой битве с Батчем-бульдозером.\nА Батч так устал от борьбы, что, заметив чистую удобную постель тигра, подумал: Вздремну-ка я часок!\nСэм был вне себя! Когда жук заползёт в постель – ещё туда-сюда, но бульдозер – это уже\nслишком!\nИ Сэм сбегал за водой и за машинным маслом, поставил то и другое не очень далеко от кровати, а потом разбудил Батча.\n– Ты, наверное, проголодался, Батч? – спросил его Сэм.\n– Конечно, – ответил Батч.\n– Вон там стоит свежее масло и вода, – сказал Сэм.\nБатч очень обрадовался. Он живо выскочил из постели и побежал пить масло и воду.\nНе успел он выскочить, как Сэм тут же сам забрался в постель.',
+                        'Наконец всё-таки выгнал. И Билли помчался домой, чтобы рассказать братьям и сестрам о своей великой битве с Батчем-бульдозером.\n\nА Батч так устал от борьбы, что, заметив чистую удобную постель тигра, подумал: Вздремну-ка я часок!\n\nСэм был вне себя! Когда жук заползёт в постель – ещё туда-сюда, но бульдозер – это уже слишком!\n\nИ Сэм сбегал за водой и за машинным маслом, поставил то и другое не очень далеко от кровати, а потом разбудил Батча.\n\n– Ты, наверное, проголодался, Батч? – спросил его Сэм.\n\n– Конечно, – ответил Батч.\n\n– Вон там стоит свежее масло и вода, – сказал Сэм.\n\nБатч очень обрадовался. \n\nОн живо выскочил из постели и побежал пить масло и воду.\n\nНе успел он выскочить, как Сэм тут же сам забрался в постель.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(5.0, 5.0, 5.0, 15.0),
+                          const EdgeInsetsDirectional.fromSTEB(5.0, 10.0, 5.0, 15.0),
                       child: InkWell(
                         splashColor: Colors.transparent,
                         focusColor: Colors.transparent,
@@ -336,12 +336,12 @@ class _BugBulldozerWidgetState extends State<BugBulldozerWidget> {
                       padding:
                           const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 20.0),
                       child: Text(
-                        '– Наконец я в своей собственной постели! – вздохнул он. – Теперь можно поспать!\nОн съел в кровати бутерброд, запил молоком и заснул.',
+                        '– Наконец я в своей собственной постели! – вздохнул он. – Теперь можно поспать!\n\nОн съел в кровати бутерброд, запил молоком и заснул.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),

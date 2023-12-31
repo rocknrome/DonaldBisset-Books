@@ -85,7 +85,7 @@ class _BlackyReddyWidgetState extends State<BlackyReddyWidget> {
                   alignment: const AlignmentDirectional(0.0, 0.0),
                   child: Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(45.0, 0.0, 0.0, 10.0),
+                        const EdgeInsetsDirectional.fromSTEB(35.0, 0.0, 0.0, 10.0),
                     child: Text(
                       'БЛЭКИ И РЭДДИ',
                       style:
@@ -109,7 +109,7 @@ class _BlackyReddyWidgetState extends State<BlackyReddyWidget> {
           child: Align(
             alignment: const AlignmentDirectional(0.0, -1.0),
             child: Padding(
-              padding: const EdgeInsetsDirectional.fromSTEB(5.0, 10.0, 5.0, 0.0),
+              padding: const EdgeInsetsDirectional.fromSTEB(5.0, 20.0, 5.0, 0.0),
               child: SingleChildScrollView(
                 child: Column(
                   mainAxisSize: MainAxisSize.max,
@@ -125,19 +125,19 @@ class _BlackyReddyWidgetState extends State<BlackyReddyWidget> {
                         padding:
                             const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
                         child: AutoSizeText(
-                          'Жила-была на свете лошадь. Звали её Редди.\nПо утрам Редди развозила молоко и каждый раз встречала по дороге своего приятеля Блэки — маленькую чёрную собачонку.',
+                          'Жила-была на свете лошадь. Звали её Редди.\n\nПо утрам Редди развозила молоко и каждый раз встречала по дороге своего приятеля Блэки — маленькую чёрную собачонку.',
                           textAlign: TextAlign.start,
                           style: GoogleFonts.getFont(
                             'Roboto',
                             color: FlutterFlowTheme.of(context).primaryText,
-                            fontSize: 12.0,
+                            fontSize: 20.0,
                           ),
                         ),
                       ),
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(5.0, 5.0, 5.0, 15.0),
+                          const EdgeInsetsDirectional.fromSTEB(5.0, 10.0, 5.0, 15.0),
                       child: InkWell(
                         splashColor: Colors.transparent,
                         focusColor: Colors.transparent,
@@ -179,17 +179,17 @@ class _BlackyReddyWidgetState extends State<BlackyReddyWidget> {
                       padding:
                           const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
                       child: Text(
-                        'По правде говоря, Редди не так уж нравилось развозить молоко. Она всегда мечтала быть скаковой лошадью и брать на скачках призы.',
+                        'По правде говоря, Редди не так уж нравилось развозить молоко. \n\nОна всегда мечтала быть скаковой лошадью и брать на скачках призы.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(5.0, 5.0, 5.0, 15.0),
+                          const EdgeInsetsDirectional.fromSTEB(5.0, 10.0, 5.0, 15.0),
                       child: InkWell(
                         splashColor: Colors.transparent,
                         focusColor: Colors.transparent,
@@ -231,17 +231,17 @@ class _BlackyReddyWidgetState extends State<BlackyReddyWidget> {
                       padding:
                           const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
                       child: Text(
-                        'Блэки тоже был не очень доволен своей судьбой. Он мечтал научиться бегать, как настоящая гончая, хотя ноги у него, честно говоря, были коротковаты.',
+                        'Блэки тоже был не очень доволен своей судьбой. \n\nОн мечтал научиться бегать, как настоящая гончая, хотя ноги у него, честно говоря, были коротковаты.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(5.0, 5.0, 5.0, 15.0),
+                          const EdgeInsetsDirectional.fromSTEB(5.0, 10.0, 5.0, 15.0),
                       child: InkWell(
                         splashColor: Colors.transparent,
                         focusColor: Colors.transparent,
@@ -283,18 +283,18 @@ class _BlackyReddyWidgetState extends State<BlackyReddyWidget> {
                       padding:
                           const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
                       child: Text(
-                        'Как-то после обеда они сидели у Редди в конюшне, играли в «крестики и нолики», и вдруг Блэки осенила идея:\n— Редди, мы должны есть уголь! Паровозы потому так быстро бегают, что едят уголь.',
+                        'Как-то после обеда они сидели у Редди в конюшне, играли в «крестики и нолики», и вдруг Блэки осенила идея:\n\n— Редди, мы должны есть уголь! Паровозы потому так быстро бегают, что едят уголь.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(5.0, 5.0, 5.0, 15.0),
+                          const EdgeInsetsDirectional.fromSTEB(5.0, 10.0, 5.0, 15.0),
                       child: InkWell(
                         splashColor: Colors.transparent,
                         focusColor: Colors.transparent,
@@ -341,13 +341,13 @@ class _BlackyReddyWidgetState extends State<BlackyReddyWidget> {
                         style: GoogleFonts.getFont(
                           'Roboto',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(5.0, 5.0, 5.0, 15.0),
+                          const EdgeInsetsDirectional.fromSTEB(5.0, 10.0, 5.0, 15.0),
                       child: InkWell(
                         splashColor: Colors.transparent,
                         focusColor: Colors.transparent,
@@ -394,13 +394,13 @@ class _BlackyReddyWidgetState extends State<BlackyReddyWidget> {
                         style: GoogleFonts.getFont(
                           'Roboto',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(5.0, 5.0, 5.0, 15.0),
+                          const EdgeInsetsDirectional.fromSTEB(5.0, 10.0, 5.0, 15.0),
                       child: InkWell(
                         splashColor: Colors.transparent,
                         focusColor: Colors.transparent,
@@ -442,18 +442,18 @@ class _BlackyReddyWidgetState extends State<BlackyReddyWidget> {
                       padding:
                           const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
                       child: Text(
-                        '— Ах, негодные! Таскать мой уголь! А ну, прочь отсюда!\nОна схватила кусок угля и запустила в них. Редди и Блэки кинулись бежать.',
+                        '— Ах, негодные! Таскать мой уголь! \n\n—А ну, прочь отсюда!\n\nОна схватила кусок угля и запустила в них. Редди и Блэки кинулись бежать.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(5.0, 5.0, 5.0, 15.0),
+                          const EdgeInsetsDirectional.fromSTEB(5.0, 10.0, 5.0, 15.0),
                       child: InkWell(
                         splashColor: Colors.transparent,
                         focusColor: Colors.transparent,
@@ -502,14 +502,14 @@ class _BlackyReddyWidgetState extends State<BlackyReddyWidget> {
                           style: GoogleFonts.getFont(
                             'Roboto',
                             color: FlutterFlowTheme.of(context).primaryText,
-                            fontSize: 12.0,
+                            fontSize: 20.0,
                           ),
                         ),
                       ),
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(5.0, 5.0, 5.0, 15.0),
+                          const EdgeInsetsDirectional.fromSTEB(5.0, 10.0, 5.0, 15.0),
                       child: InkWell(
                         splashColor: Colors.transparent,
                         focusColor: Colors.transparent,
@@ -556,13 +556,13 @@ class _BlackyReddyWidgetState extends State<BlackyReddyWidget> {
                         style: GoogleFonts.getFont(
                           'Roboto',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(5.0, 5.0, 5.0, 20.0),
+                          const EdgeInsetsDirectional.fromSTEB(5.0, 10.0, 5.0, 20.0),
                       child: InkWell(
                         splashColor: Colors.transparent,
                         focusColor: Colors.transparent,
@@ -604,18 +604,18 @@ class _BlackyReddyWidgetState extends State<BlackyReddyWidget> {
                       padding:
                           const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
                       child: Text(
-                        '— Вот это скорость! — воскликнул он.— Держу пари, эта лошадь получила бы на скачках первый приз. А собака- то, собака! Несётся быстрее гончей! Честное слово, они заслужили по медали.\nИ он выдал Редди и Блэки по медали.',
+                        '— Вот это скорость! — воскликнул он.\n\n— Держу пари, эта лошадь получила бы на скачках первый приз. \n\nА собака- то, собака! Несётся быстрее гончей! \n\nЧестное слово, они заслужили по медали.\n\nИ он выдал Редди и Блэки по медали.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(5.0, 5.0, 5.0, 20.0),
+                          const EdgeInsetsDirectional.fromSTEB(5.0, 10.0, 5.0, 20.0),
                       child: InkWell(
                         splashColor: Colors.transparent,
                         focusColor: Colors.transparent,
