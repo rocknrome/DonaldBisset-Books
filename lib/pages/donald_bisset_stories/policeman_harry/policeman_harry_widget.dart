@@ -124,15 +124,15 @@ class _PolicemanHarryWidgetState extends State<PolicemanHarryWidget> {
                       ),
                       decoration: const BoxDecoration(),
                       child: Padding(
-                        padding:
-                            const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                        padding: const EdgeInsetsDirectional.fromSTEB(
+                            15.0, 0.0, 5.0, 10.0),
                         child: AutoSizeText(
-                          'Жили-были на свете полисмен Артур и полицейский конь Гарри, оба озорники.\nНадев синюю форму и прицепив к поясу резиновую дубинку, Артур каждый день садился верхом на Гарри и ехал через весь Лондон.',
+                          'Жили-были на свете полисмен Артур и полицейский конь Гарри, оба озорники.\n\nНадев синюю форму и прицепив к поясу резиновую дубинку, Артур каждый день садился верхом на Гарри и ехал через весь Лондон.',
                           textAlign: TextAlign.start,
                           style: GoogleFonts.getFont(
                             'Roboto',
                             color: FlutterFlowTheme.of(context).primaryText,
-                            fontSize: 12.0,
+                            fontSize: 20.0,
                           ),
                         ),
                       ),
@@ -179,13 +179,13 @@ class _PolicemanHarryWidgetState extends State<PolicemanHarryWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'Любимым занятием Гарри было плестись в хвосте автобуса и дышать на заднее стекло, пока стекло не запотеет. Тогда Артур, приподнявшись в седле, рисовал пальцем на стекле всякие рожицы, а Гарри смеялся, глядя на них.',
+                        'Любимым занятием Гарри было плестись в хвосте автобуса и дышать на заднее стекло, пока стекло не запотеет. \n\nТогда Артур, приподнявшись в седле, рисовал пальцем на стекле всякие рожицы, а Гарри смеялся, глядя на них.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -231,13 +231,13 @@ class _PolicemanHarryWidgetState extends State<PolicemanHarryWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
                         'Они так часто занимались этим делом — Гарри трусил за автобусом и дышал на стекло, а Артур рисовал рожицы,— что у них совершенно не оставалось времени ловить жуликов.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -283,14 +283,14 @@ class _PolicemanHarryWidgetState extends State<PolicemanHarryWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'И в одно прекрасное утро инспектор полиции Реджинальд позвал к себе сержанта и сказал:\n— Сержант!\n— Да, сэр! — ответил сержант, став навытяжку.',
+                        'И в одно прекрасное утро инспектор полиции Реджинальд позвал к себе сержанта и сказал:\n\n— Сержант!\n\n— Да, сэр! — ответил сержант, став навытяжку.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -336,14 +336,14 @@ class _PolicemanHarryWidgetState extends State<PolicemanHarryWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        '— Сержант,— спросил Реджинальд,— почему Артур не ловит жуликов?\n— Не могу знать, сэр,— ответил сержант.\n— Надо выяснить, сержант. Это большое упущение,— сказал инспектор Реджинальд.\n— Есть, сэр! — ответил Джордж (так звали сержанта) и отдал честь.\nПотом он вышел на улицу, сел на своего коня — это был очень хороший конь, он никогда не гонялся за автобусами и не дышал на стёкла — и поехал по улицам Лондона искать Артура и Гарри, чтобы посмотреть, чем они занимаются.',
+                        '— Сержант,— спросил Реджинальд,— почему Артур не ловит жуликов?\n\n— Не могу знать, сэр,— ответил сержант.\n\n— Надо выяснить, сержант. \n\nЭто большое упущение,— сказал инспектор Реджинальд.\n\n— Есть, сэр! — ответил Джордж (так звали сержанта) и отдал честь.\n\nПотом он вышел на улицу, сел на своего коня — это был очень хороший конь, он никогда не гонялся за автобусами и не дышал на стёкла — и поехал по улицам Лондона искать Артура и Гарри, чтобы посмотреть, чем они занимаются.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -389,14 +389,14 @@ class _PolicemanHarryWidgetState extends State<PolicemanHarryWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'Наконец он их увидел. Гарри в это время как раз дышал на заднее стекло автобуса, а Артур, наклонившись вперёд, рисовал на стекле смешные рожицы.\n«Ну и озорники! — подумал сержант Джордж.— А дело то, кажется, занятное! Может, и мне попробовать?»',
+                        'Наконец он их увидел. \n\nГарри в это время как раз дышал на заднее стекло автобуса, а Артур, наклонившись вперёд, рисовал на стекле смешные рожицы.\n\n«Ну и озорники! — подумал сержант Джордж.\n\n— А дело то, кажется, занятное! \n\nМожет, и мне попробовать?»',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -442,14 +442,14 @@ class _PolicemanHarryWidgetState extends State<PolicemanHarryWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'И он направил своего коня вслед за автобусом, чтобы конь подышал на заднее стекло. А когда стекло запотело, Джордж наклонился вперёд и нарисовал на нём пальцем портрет инспектора Реджинальда.\nТут его увидел другой полисмен. Ему тоже понравилось это весёлое занятие, и он тоже решил порисовать.\nСкоро уже вся конная полиция ехала за автобусами: кони дышали на задние стёкла, а полисмены рисовали на стёклах рожицы.',
+                        'И он направил своего коня вслед за автобусом, чтобы конь подышал на заднее стекло. \n\nА когда стекло запотело, Джордж наклонился вперёд и нарисовал на нём пальцем портрет инспектора Реджинальда.\n\nТут его увидел другой полисмен. \n\nЕму тоже понравилось это весёлое занятие, и он тоже решил порисовать.\n\nСкоро уже вся конная полиция ехала за автобусами: \n\nкони дышали на задние стёкла, а полисмены рисовали на стёклах рожицы.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -495,14 +495,14 @@ class _PolicemanHarryWidgetState extends State<PolicemanHarryWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'Лондонские жулики не знали, что и думать: никто больше их не ловил.\n— Что случилось с полицией? — спрашивали они друг у друга.\nНаконец они решили выяснить, в чём дело, и выяснили, что полисменам некогда, они рисуют на задних стёклах автобусов рожицы.\n— Хорошее занятие! — сказали жулики.\nИ они раздумали быть жуликами, а купили себе коней, научили их дышать на задние стёкла автобусов и тоже стали рисовать весёлые рожицы.',
+                        'Лондонские жулики не знали, что и думать: \n\nникто больше их не ловил.\n\n— Что случилось с полицией? — спрашивали они друг у друга.\n\nНаконец они решили выяснить, в чём дело, и выяснили, что полисменам некогда, они рисуют на задних стёклах автобусов рожицы.\n\n— Хорошее занятие! — сказали жулики.\n\nИ они раздумали быть жуликами, а купили себе коней, научили их дышать на задние стёкла автобусов и тоже стали рисовать весёлые рожицы.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -548,14 +548,14 @@ class _PolicemanHarryWidgetState extends State<PolicemanHarryWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'Шеф полиции Лондона был очень доволен. Он вызвал к себе Гарри и Артура и сказал им:\n— Хитро придумано! Вы оба молодцы.\nИ произвёл Артура в сержанты.',
+                        'Шеф полиции Лондона был очень доволен. \n\nОн вызвал к себе Гарри и Артура и сказал им:\n\n— Хитро придумано! \n\n— Вы оба молодцы.\n\nИ произвёл Артура в сержанты.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),

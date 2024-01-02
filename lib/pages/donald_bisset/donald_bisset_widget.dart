@@ -55,7 +55,7 @@ class _DonaldBissetWidgetState extends State<DonaldBissetWidget> {
           backgroundColor: const Color(0xFFFE5E74),
           automaticallyImplyLeading: false,
           title: Align(
-            alignment: const AlignmentDirectional(0.0, 0.0),
+            alignment: const AlignmentDirectional(0.0, -1.0),
             child: Row(
               mainAxisSize: MainAxisSize.max,
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -64,7 +64,7 @@ class _DonaldBissetWidgetState extends State<DonaldBissetWidget> {
                   alignment: const AlignmentDirectional(0.0, 0.0),
                   child: Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(85.0, 0.0, 0.0, 10.0),
+                        const EdgeInsetsDirectional.fromSTEB(75.0, 0.0, 0.0, 10.0),
                     child: Text(
                       'ДОНАЛЬД БИССЕТ\nСказки',
                       textAlign: TextAlign.center,

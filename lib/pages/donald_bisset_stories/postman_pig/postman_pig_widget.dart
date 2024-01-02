@@ -124,15 +124,15 @@ class _PostmanPigWidgetState extends State<PostmanPigWidget> {
                       ),
                       decoration: const BoxDecoration(),
                       child: Padding(
-                        padding:
-                            const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                        padding: const EdgeInsetsDirectional.fromSTEB(
+                            15.0, 0.0, 5.0, 10.0),
                         child: AutoSizeText(
-                          'Жил-был на свете почтальон. Он очень любил разносить письма и посылки. Особенно большие письма и большие посылки. Он их просовывал в дверную щель. Знаете, делают на входной двери такую щель, чтобы через неё бросать письма и газеты? Вместо ящика.',
+                          'Жил-был на свете почтальон. \n\nОн очень любил разносить письма и посылки. \n\nОсобенно большие письма и большие посылки. \n\nОн их просовывал в дверную щель. \n\nЗнаете, делают на входной двери такую щель, чтобы через неё бросать письма и газеты? \n\nВместо ящика.',
                           textAlign: TextAlign.start,
                           style: GoogleFonts.getFont(
                             'Roboto',
                             color: FlutterFlowTheme.of(context).primaryText,
-                            fontSize: 12.0,
+                            fontSize: 20.0,
                           ),
                         ),
                       ),
@@ -179,13 +179,13 @@ class _PostmanPigWidgetState extends State<PostmanPigWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'Чем больше письмо и чем меньше щель, тем интереснее — так считал почтальон.\nКонечно, слишком большие письма приходили иногда помятыми, так что их трудно было читать. И люди спрашивали почтальона:\n— Почему вы не постучите в дверь, когда должны передать большой пакет? Мы всегда вам с удовольствием откроем.\nНо почтальон никогда не стучал в дверь. Он так любил просовывать толстые письма и пакеты в узкую дверную щель!\nОднажды на почту пришла посылка с поросёнком. На шее у поросёнка висел ярлычок:\n«Передать мистеру Брауну, фермеру».',
+                        'Чем больше письмо и чем меньше щель, тем интереснее — так считал почтальон.\n\nКонечно, слишком большие письма приходили иногда помятыми, так что их трудно было читать. \n\nИ люди спрашивали почтальона:\n\n— Почему вы не постучите в дверь, когда должны передать большой пакет? \n\nМы всегда вам с удовольствием откроем.\n\nНо почтальон никогда не стучал в дверь. \n\nОн так любил просовывать толстые письма и пакеты в узкую дверную щель!\n\nОднажды на почту пришла посылка с поросёнком. \n\nНа шее у поросёнка висел ярлычок:\n\n«Передать мистеру Брауну, фермеру».',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -231,13 +231,13 @@ class _PostmanPigWidgetState extends State<PostmanPigWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'Почтальон очень обрадовался:\n— Вот это задача — просунуть такую большую посылку в такую маленькую щель!\nОн подхватил поросёнка и пошёл разносить письма и прочие посылки.\nМистер Браун жил неподалёку. Сначала поросёнок никак не проходил в дверную щель.',
+                        'Почтальон очень обрадовался:\n\n— Вот это задача — просунуть такую большую посылку в такую маленькую щель!\n\nОн подхватил поросёнка и пошёл разносить письма и прочие посылки.\n\nМистер Браун жил неподалёку. \n\nСначала поросёнок никак не проходил в дверную щель.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -283,14 +283,14 @@ class _PostmanPigWidgetState extends State<PostmanPigWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'Но почтальон подёргал его за весёлый хвостик, и поросёнок наконец проскочил и плюхнулся прямо на коврик перед дверью. Почтальон услышал, как он застучал копытцами по коридору, и подумал: «Наверное, побежал искать мистера Брауна».',
+                        'Но почтальон подёргал его за весёлый хвостик, и поросёнок наконец проскочил и плюхнулся прямо на коврик перед дверью. \n\nПочтальон услышал, как он застучал копытцами по коридору, и подумал: \n\n«Наверное, побежал искать мистера Брауна».',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -336,14 +336,14 @@ class _PostmanPigWidgetState extends State<PostmanPigWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'Вернувшись домой, почтальон рассказал жене, как ему удалось просунуть поросёнка в дверную щель. Жена очень удивилась.\n— Ты разве забыл,— сказала она,— что фермер Браун уехал вчера погостить к своей бабушке и долго ещё не вернётся?',
+                        'Вернувшись домой, почтальон рассказал жене, как ему удалось просунуть поросёнка в дверную щель. \n\nЖена очень удивилась.\n\n— Ты разве забыл,— сказала она,— что фермер Браун уехал вчера погостить к своей бабушке и долго ещё не вернётся?',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -389,14 +389,14 @@ class _PostmanPigWidgetState extends State<PostmanPigWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        '— Вот беда! — воскликнул почтальон.— Что же я наделал! Ведь поросёнку захочется есть. И он тут же пошёл в магазин и купил целый мешок репы, морковки и кукурузы, а потом побросал всё это через щель в двери мистера Брауна. Поросёнок только того и ждал и съел всё без остатка.',
+                        '— Вот беда! — воскликнул почтальон.— Что же я наделал! \n\nВедь поросёнку захочется есть. \n\nИ он тут же пошёл в магазин и купил целый мешок репы, морковки и кукурузы, а потом побросал всё это через щель в двери мистера Брауна. \n\nПоросёнок только того и ждал и съел всё без остатка.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -442,14 +442,14 @@ class _PostmanPigWidgetState extends State<PostmanPigWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'С этого дня почтальон каждое утро носил в дом фермера Брауна всякие овощи и просовывал их в щель для писем и газет.\nПоросёнок ел овощи с большим аппетитом и стал быстро расти и толстеть. Скоро из маленького поросёнка он превратился в большую, толстую и симпатичную хрюшку.',
+                        'С этого дня почтальон каждое утро носил в дом фермера Брауна всякие овощи и просовывал их в щель для писем и газет.\n\nПоросёнок ел овощи с большим аппетитом и стал быстро расти и толстеть. \n\nСкоро из маленького поросёнка он превратился в большую, толстую и симпатичную хрюшку.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -495,14 +495,14 @@ class _PostmanPigWidgetState extends State<PostmanPigWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'Такую толстую, что уж никак не пролезла бы в щель для писем и газет.\nКогда фермер Браун вернулся в город и открыл входную дверь своего дома, он глазам своим не поверил от удивления.',
+                        'Такую толстую, что уж никак не пролезла бы в щель для писем и газет.\n\nКогда фермер Браун вернулся в город и открыл входную дверь своего дома, он глазам своим не поверил от удивления.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -548,14 +548,14 @@ class _PostmanPigWidgetState extends State<PostmanPigWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'Посмотрел сначала на поросёнка, потом на щель для писем и газет и удивился ещё больше.\n— Вот уж не понимаю, как удалось почтальону просунуть тебя через эту щель?\nОн отвёл поросёнка на кухню и накормил его кукурузными хлопьями с молоком.',
+                        'Посмотрел сначала на поросёнка, потом на щель для писем и газет и удивился ещё больше.\n\n— Вот уж не понимаю, как удалось почтальону просунуть тебя через эту щель?\n\nОн отвёл поросёнка на кухню и накормил его кукурузными хлопьями с молоком.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
