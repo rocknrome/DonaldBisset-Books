@@ -81,17 +81,22 @@ class _TigerBlinkyWidgetState extends State<TigerBlinkyWidget> {
               mainAxisSize: MainAxisSize.max,
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 10.0),
-                  child: Text(
-                    'ПРО ТИГРЕНКА БИНКИ У \nКОТОРОГО ИСЧЕЗЛИ ВСЕ ПОЛОСКИ',
-                    textAlign: TextAlign.center,
-                    maxLines: 2,
-                    style: FlutterFlowTheme.of(context).headlineMedium.override(
-                          fontFamily: 'Inter',
-                          color: Colors.white,
-                          fontSize: 16.0,
-                        ),
+                Align(
+                  alignment: const AlignmentDirectional(0.0, 0.0),
+                  child: Padding(
+                    padding:
+                        const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 10.0),
+                    child: Text(
+                      'ПРО ТИГРЕНКА БИНКИ \nУ КОТОРОГО ИСЧЕЗЛИ ВСЕ ПОЛОСКИ',
+                      textAlign: TextAlign.center,
+                      maxLines: 2,
+                      style:
+                          FlutterFlowTheme.of(context).headlineMedium.override(
+                                fontFamily: 'Inter',
+                                color: Colors.white,
+                                fontSize: 16.0,
+                              ),
+                    ),
                   ),
                 ),
               ],
@@ -119,15 +124,15 @@ class _TigerBlinkyWidgetState extends State<TigerBlinkyWidget> {
                       ),
                       decoration: const BoxDecoration(),
                       child: Padding(
-                        padding:
-                            const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                        padding: const EdgeInsetsDirectional.fromSTEB(
+                            15.0, 0.0, 5.0, 10.0),
                         child: AutoSizeText(
-                          'Однажды Тигрица-мама задумала испечь сладкий пирог. Она так усердно раскатывала тесто, что мука и сахарная пудра летали по всей кухне.',
+                          'Однажды Тигрица-мама задумала испечь сладкий пирог. \n\nОна так усердно раскатывала тесто, что мука и сахарная пудра летали по всей кухне.',
                           textAlign: TextAlign.start,
                           style: GoogleFonts.getFont(
                             'Roboto',
                             color: FlutterFlowTheme.of(context).primaryText,
-                            fontSize: 12.0,
+                            fontSize: 20.0,
                           ),
                         ),
                       ),
@@ -174,13 +179,13 @@ class _TigerBlinkyWidgetState extends State<TigerBlinkyWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'Как раз в это время родился тигрёнок Бинки. Тигрица-мама поглядела на него и удивилась:\n— Где же твои полоски? Ну ничего, мы всё равно будем любить тебя, и без полосок.',
+                        'Как раз в это время родился тигрёнок Бинки. \n\nТигрица-мама поглядела на него и удивилась:\n\n— Где же твои полоски? Ну ничего, мы всё равно будем любить тебя, и без полосок.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -229,13 +234,13 @@ class _TigerBlinkyWidgetState extends State<TigerBlinkyWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'Но Бинки знал, что тиграм полагается быть полосатыми. И он не теряя времени побежал искать себе полоски.\nПервым ему повстречался сержант. На рукаве у сержанта было целых три полоски.',
+                        'Но Бинки знал, что тиграм полагается быть полосатыми. \n\nИ он не теряя времени побежал искать себе полоски.\n\nПервым ему повстречался сержант. \n\nНа рукаве у сержанта было целых три полоски.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -281,14 +286,14 @@ class _TigerBlinkyWidgetState extends State<TigerBlinkyWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        '— Дай мне, пожалуйста, одну полоску! — попросил у него Бинки.\n— Стоять смирно, когда обращаешься к военному! — прикрикнул на тигрёнка сержант. — Нет у меня лишних полосок.\nБинки побежал дальше и увидел чугунную ограду. Какой-то человек красил её. Бинки подождал, пока он кончит, а когда человек ушёл, Бинки прислонился к ограде сначала одним боком, потом другим. Краска пристала к шерсти, и он стал полосатым.\nБинки бросился бегом домой, чтобы показать маме свои полоски. Но было очень жарко, сильно припекало солнце, и краска начала таять и капать на землю, так что скоро у Бинки опять не осталось ни одной полоски.',
+                        '— Дай мне, пожалуйста, одну полоску! — попросил у него Бинки.\n\n— Стоять смирно, когда обращаешься к военному! — прикрикнул на тигрёнка сержант. \n\n— Нет у меня лишних полосок.\n\nБинки побежал дальше и увидел чугунную ограду. \n\nКакой-то человек красил её. \n\nБинки подождал, пока он кончит, а когда человек ушёл, Бинки прислонился к ограде сначала одним боком, потом другим. \n\nКраска пристала к шерсти, и он стал полосатым.\n\nБинки бросился бегом домой, чтобы показать маме свои полоски. \n\nНо было очень жарко, сильно припекало солнце, и краска начала таять и капать на землю, так что скоро у Бинки опять не осталось ни одной полоски.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -334,14 +339,14 @@ class _TigerBlinkyWidgetState extends State<TigerBlinkyWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'И тут он встретил Зебру. Бинки замер от удивления: сколько полосок на одной-единственной спине!\nЭто же несправедливо! Он сел и горько заплакал.\n— О чём ты, малыш? — спросила его Зебра.\n— По… по… почему я не полосатый? — пожаловался Б инки.\n— Бедняжка, — сказала Зебра и ласково лизнула тигрёнка.– А на вкус ты ничего, приятный. — И она лизнула его ещё раз. — Вроде сладкого пирога.\nОна лизнула его ещё и ещё, и вдруг на спине у Бинки одна за другой появились чёрные полоски!\nОн прибежал домой к маме и закричал:\n— Мама! Ура, я полосатый!',
+                        'И тут он встретил Зебру. \n\nБинки замер от удивления: сколько полосок на одной-единственной спине!\n\nЭто же несправедливо! \n\nОн сел и горько заплакал.\n\n— О чём ты, малыш? — спросила его Зебра.\n\n— По… по… почему я не полосатый? — пожаловался Б инки.\n\n— Бедняжка, — сказала Зебра и ласково лизнула тигрёнка.\n\n– А на вкус ты ничего, приятный. — И она лизнула его ещё раз. \n\n— Вроде сладкого пирога.\n\nОна лизнула его ещё и ещё, и вдруг на спине у Бинки одна за другой появились чёрные полоски!\n\nОн прибежал домой к маме и закричал:\n\n— Мама! Ура, я полосатый!',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),

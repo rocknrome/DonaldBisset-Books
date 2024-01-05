@@ -122,15 +122,15 @@ class _RhinoAndFairyWidgetState extends State<RhinoAndFairyWidget> {
                       ),
                       decoration: const BoxDecoration(),
                       child: Padding(
-                        padding:
-                            const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                        padding: const EdgeInsetsDirectional.fromSTEB(
+                            15.0, 0.0, 5.0, 10.0),
                         child: AutoSizeText(
                           'Много-много лет тому назад, когда все папы были ещё маленькими мальчиками, жил на свете носорог по имени Сэм.',
                           textAlign: TextAlign.start,
                           style: GoogleFonts.getFont(
                             'Roboto',
                             color: FlutterFlowTheme.of(context).primaryText,
-                            fontSize: 12.0,
+                            fontSize: 20.0,
                           ),
                         ),
                       ),
@@ -177,13 +177,13 @@ class _RhinoAndFairyWidgetState extends State<RhinoAndFairyWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'Он был очень толстый, но это его ничуть не огорчало. Он чувствовал себя совершенно счастливым и каждый вечер перед сном пел песенку:\nНосо-носо-носо-роги\nВсё съедают по дороге\nИ не думают о том,\nЧто случится с животом.',
+                        'Он был очень толстый, но это его ничуть не огорчало. \n\nОн чувствовал себя совершенно счастливым и каждый вечер перед сном пел песенку:\n\nНосо-носо-носо-роги\nВсё съедают по дороге\nИ не думают о том,\nЧто случится с животом.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -229,13 +229,13 @@ class _RhinoAndFairyWidgetState extends State<RhinoAndFairyWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
                         'Потом съедал сто шоколадных печений, запивал их молоком и засыпал.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -281,14 +281,14 @@ class _RhinoAndFairyWidgetState extends State<RhinoAndFairyWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'Но по ночам ему снился сон, каждый раз один и тот же. Ему снилось, что кто-то его щекочет.',
+                        'Но по ночам ему снился сон, каждый раз один и тот же. \n\nЕму снилось, что кто-то его щекочет.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -334,13 +334,13 @@ class _RhinoAndFairyWidgetState extends State<RhinoAndFairyWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'Сначала чуть-чуть, потом сильнее и, наконец, так, что не было мочи терпеть. Из-за этого Сэми беспокойно крутился во сне и каждую ночь падал с кровати.',
+                        'Сначала чуть-чуть, потом сильнее и, наконец, так, что не было мочи терпеть. \n\nИз-за этого Сэми беспокойно крутился во сне и каждую ночь падал с кровати.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -386,13 +386,13 @@ class _RhinoAndFairyWidgetState extends State<RhinoAndFairyWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'А так как он был очень большой и толстый, то и падал с постели очень громко — бух!!! И все, кто жил по соседству, были недовольны и жаловались, что он слишком шумный и беспокойный носорог.',
+                        'А так как он был очень большой и толстый, то и падал с постели очень громко — бух!!! \n\nИ все, кто жил по соседству, были недовольны и жаловались, что он слишком шумный и беспокойный носорог.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -438,13 +438,13 @@ class _RhinoAndFairyWidgetState extends State<RhinoAndFairyWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'Бедняга Сэм не знал, что и придумать. И вот он пошёл за советом к мудрой сове, она жила на старом дубе. Сову звали Джуди, она умела читать, писать и считать, а по пятницам чистила себе когти.',
+                        'Бедняга Сэм не знал, что и придумать. \n\nИ вот он пошёл за советом к мудрой сове, она жила на старом дубе. \n\nСову звали Джуди, она умела читать, писать и считать, а по пятницам чистила себе когти.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -490,13 +490,13 @@ class _RhinoAndFairyWidgetState extends State<RhinoAndFairyWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'Сэм рассказал Джуди, что он каждую ночь падает с кровати и будит своих соседей и они на него жалуются. А что сделать, чтобы не крутиться во сне, он не знает. Может быть, Джуди научит его?',
+                        'Сэм рассказал Джуди, что он каждую ночь падает с кровати и будит своих соседей и они на него жалуются. \n\nА что сделать, чтобы не крутиться во сне, он не знает. \n\nМожет быть, Джуди научит его?',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -542,13 +542,13 @@ class _RhinoAndFairyWidgetState extends State<RhinoAndFairyWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        '— Знаю, знаю,— сказала Джуди,— попроси добрую фею, она тебе поможет.\n— Фею так фею,— согласился Сэми.\nИ он сказал про себя «фея, фея» и ещё раз «фея». Как только он в третий раз сказал «фея», в траве что-то зашуршало, и появилась фея, хорошенькая, как лютик. В правой руке у неё была серебряная палочка.',
+                        '— Знаю, знаю,— сказала Джуди,— попроси добрую фею, она тебе поможет.\n\n— Фею так фею,— согласился Сэми.\n\nИ он сказал про себя «фея, фея» и ещё раз «фея». \n\nКак только он в третий раз сказал «фея», в траве что-то зашуршало, и появилась фея, хорошенькая, как лютик. \n\nВ правой руке у неё была серебряная палочка.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -594,13 +594,13 @@ class _RhinoAndFairyWidgetState extends State<RhinoAndFairyWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'Сэм рассказал ей обо всём: как он ложится в постель, съедает сто шоколадных печений, запивает их молоком и засыпает. И как ему снится, что его кто-то щекочет, и он крутится во сне, и падает с кровати, и соседи на него жалуются.\n— Ах, какой глупый носорог! — сказала фея.— Ну кто же ест шоколадное печенье в постели? А про крошки ты забыл? Конечно, щекотно! И ничего удивительного, что ты падаешь с постели.\n— Что же мне делать? — спросил Сэм.— Если я откажусь от плотного ужина, я похудею.\n— Я помогу тебе,— сказала фея.— Зажмурь глаза и не подглядывай.',
+                        'Сэм рассказал ей обо всём: \n\nкак он ложится в постель, съедает сто шоколадных печений, запивает их молоком и засыпает. \n\nИ как ему снится, что его кто-то щекочет, и он крутится во сне, и падает с кровати, и соседи на него жалуются.\n\n— Ах, какой глупый носорог! — сказала фея.\n\n— Ну кто же ест шоколадное печенье в постели? \n\nА про крошки ты забыл? \n\nКонечно, щекотно! \n\nИ ничего удивительного, что ты падаешь с постели.\n\n— Что же мне делать? — спросил Сэм.\n\n— Если я откажусь от плотного ужина, я похудею.\n\n— Я помогу тебе,— сказала фея.\n\n— Зажмурь глаза и не подглядывай.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -646,13 +646,13 @@ class _RhinoAndFairyWidgetState extends State<RhinoAndFairyWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
                         'Сэми зажмурил глаза, а фея взмахнула серебряной палочкой над Джуди и превратила её в канарейку.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -698,13 +698,13 @@ class _RhinoAndFairyWidgetState extends State<RhinoAndFairyWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        '— Что со мной? — удивилась Джуди.\n— Не сердись,— сказала фея,— я превратила тебя в канарейку. Зато теперь, ты можешь клевать шоколадные крошки.\n— Тогда согласна,— сказала Джуди.\nОна расправила жёлтые пёрышки и пропела:\nКомары и мошки,\nКомары и мошки,\nСэм любит печенье,\nА канарейка крошки.',
+                        '— Что со мной? — удивилась Джуди.\n\n— Не сердись,— сказала фея,— я превратила тебя в канарейку. \n\nЗато теперь, ты можешь клевать шоколадные крошки.\n\n— Тогда согласна,— сказала Джуди.\n\nОна расправила жёлтые пёрышки и пропела:\n\nКомары и мошки,\nКомары и мошки,\nСэм любит печенье,\nА канарейка крошки.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -750,13 +750,13 @@ class _RhinoAndFairyWidgetState extends State<RhinoAndFairyWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'Сэми открыл глаза.\n— Ешь мои крошки, ешь на здоровье! — обрадовался он.— Они-то мне и не давали спать. Спасибо тебе, добрая фея, большое-большое спасибо. Теперь мне не будет щекотно и я перестану крутиться во сне и падать с кровати. Ура!',
+                        'Сэми открыл глаза.\n\n— Ешь мои крошки, ешь на здоровье! — обрадовался он.\n\n— Они-то мне и не давали спать. \n\nСпасибо тебе, добрая фея, большое-большое спасибо. \n\nТеперь мне не будет щекотно и я перестану крутиться во сне и падать с кровати. \n\nУра!',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -802,13 +802,13 @@ class _RhinoAndFairyWidgetState extends State<RhinoAndFairyWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
                         'Джуди и Сэм вернулись домой, и с тех пор всё пошло хорошо.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -854,13 +854,13 @@ class _RhinoAndFairyWidgetState extends State<RhinoAndFairyWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
                         'Сэму больше ничего не снилось, он не крутился во сне и не падал с кровати.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -906,13 +906,13 @@ class _RhinoAndFairyWidgetState extends State<RhinoAndFairyWidget> {
                     ),
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 8.0),
+                          const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 10.0),
                       child: Text(
-                        'Все соседи считали его теперь замечательным носорогом и говорили, что ему очень повезло: у него есть хорошая помощница, которая подъедает все крошки.',
+                        'Все соседи считали его теперь замечательным носорогом и говорили, что ему очень повезло: \n\nу него есть хорошая помощница, которая подъедает все крошки.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
@@ -960,11 +960,11 @@ class _RhinoAndFairyWidgetState extends State<RhinoAndFairyWidget> {
                       padding:
                           const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 5.0, 20.0),
                       child: Text(
-                        'Иногда ранним утром Сэми спускался к реке и пел такую песенку:\nКомары и мошки,\nКомары и мошки,\nКанарейка Джуди Очень любит крошки.\nИ теперь я —\nУра! Ура! —\nНе верчусь,\nНе кручусь,\nА сплю до утра.',
+                        'Иногда ранним утром Сэми спускался к реке и пел такую песенку:\n\nКомары и мошки,\nКомары и мошки,\nКанарейка Джуди Очень любит крошки.\n\nИ теперь я —\nУра! Ура! —\nНе верчусь,\nНе кручусь,\nА сплю до утра.',
                         textAlign: TextAlign.start,
                         style: GoogleFonts.getFont(
                           'Roboto',
-                          fontSize: 12.0,
+                          fontSize: 20.0,
                         ),
                       ),
                     ),
