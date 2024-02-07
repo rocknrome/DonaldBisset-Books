@@ -13,7 +13,7 @@ class KingCrossWidget extends StatefulWidget {
   const KingCrossWidget({super.key});
 
   @override
-  _KingCrossWidgetState createState() => _KingCrossWidgetState();
+  State<KingCrossWidget> createState() => _KingCrossWidgetState();
 }
 
 class _KingCrossWidgetState extends State<KingCrossWidget> {
@@ -67,7 +67,7 @@ class _KingCrossWidgetState extends State<KingCrossWidget> {
               fillColor: const Color(0xFFFD4F04),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -93,7 +93,7 @@ class _KingCrossWidgetState extends State<KingCrossWidget> {
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
+                                color: FlutterFlowTheme.of(context).primaryText,
                                 fontSize: 22.0,
                               ),
                     ),

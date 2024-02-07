@@ -13,7 +13,7 @@ class BritishLionsWidget extends StatefulWidget {
   const BritishLionsWidget({super.key});
 
   @override
-  _BritishLionsWidgetState createState() => _BritishLionsWidgetState();
+  State<BritishLionsWidget> createState() => _BritishLionsWidgetState();
 }
 
 class _BritishLionsWidgetState extends State<BritishLionsWidget> {
@@ -67,8 +67,8 @@ class _BritishLionsWidgetState extends State<BritishLionsWidget> {
               fillColor: const Color(0xFF7C786E),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
-                size: 24.0,
+                color: FlutterFlowTheme.of(context).primaryText,
+                size: 20.0,
               ),
               onPressed: () async {
                 context.pushNamed('DonaldBisset');
@@ -91,7 +91,7 @@ class _BritishLionsWidgetState extends State<BritishLionsWidget> {
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
+                                color: FlutterFlowTheme.of(context).primaryText,
                                 fontSize: 22.0,
                               ),
                     ),

@@ -13,7 +13,7 @@ class LittlePigLearnsToFlyWidget extends StatefulWidget {
   const LittlePigLearnsToFlyWidget({super.key});
 
   @override
-  _LittlePigLearnsToFlyWidgetState createState() =>
+  State<LittlePigLearnsToFlyWidget> createState() =>
       _LittlePigLearnsToFlyWidgetState();
 }
 
@@ -69,7 +69,7 @@ class _LittlePigLearnsToFlyWidgetState
               fillColor: const Color(0xFF52AFC9),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 22.0,
               ),
               onPressed: () async {
@@ -87,16 +87,16 @@ class _LittlePigLearnsToFlyWidgetState
                   alignment: const AlignmentDirectional(0.0, 0.0),
                   child: Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 10.0),
+                        const EdgeInsetsDirectional.fromSTEB(60.0, 0.0, 0.0, 10.0),
                     child: Text(
-                      'ПРО ПОРОСЁНКА, КОТОРЫЙ \nУЧИЛСЯ ЛЕТАТЬ',
+                      'ПРО ПОРОСЁНКА, \nКОТОРЫЙ \nУЧИЛСЯ ЛЕТАТЬ',
                       textAlign: TextAlign.center,
-                      maxLines: 2,
+                      maxLines: 3,
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: const Color(0xFFE4EDE9),
-                                fontSize: 20.0,
+                                color: FlutterFlowTheme.of(context).primaryText,
+                                fontSize: 14.0,
                               ),
                     ),
                   ),

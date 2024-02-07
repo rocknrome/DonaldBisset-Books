@@ -34,12 +34,17 @@ class _MyAppState extends State<MyApp> {
   late AppStateNotifier _appStateNotifier;
   late GoRouter _router;
 
+  bool displaySplashImage = true;
+
   @override
   void initState() {
     super.initState();
 
     _appStateNotifier = AppStateNotifier.instance;
     _router = createRouter(_appStateNotifier);
+
+    Future.delayed(const Duration(milliseconds: 1000),
+        () => setState(() => _appStateNotifier.stopShowingSplashImage()));
   }
 
   void setLocale(String language) {
@@ -54,7 +59,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      title: 'Books',
+      title: 'KindBooks',
       localizationsDelegates: const [
         FFLocalizationsDelegate(),
         GlobalMaterialLocalizations.delegate,
@@ -67,11 +72,9 @@ class _MyAppState extends State<MyApp> {
       ],
       theme: ThemeData(
         brightness: Brightness.light,
-        scrollbarTheme: const ScrollbarThemeData(),
       ),
       darkTheme: ThemeData(
         brightness: Brightness.dark,
-        scrollbarTheme: const ScrollbarThemeData(),
       ),
       themeMode: _themeMode,
       routerConfig: _router,

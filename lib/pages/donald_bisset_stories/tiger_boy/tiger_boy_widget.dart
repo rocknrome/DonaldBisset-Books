@@ -13,7 +13,7 @@ class TigerBoyWidget extends StatefulWidget {
   const TigerBoyWidget({super.key});
 
   @override
-  _TigerBoyWidgetState createState() => _TigerBoyWidgetState();
+  State<TigerBoyWidget> createState() => _TigerBoyWidgetState();
 }
 
 class _TigerBoyWidgetState extends State<TigerBoyWidget> {
@@ -67,7 +67,7 @@ class _TigerBoyWidgetState extends State<TigerBoyWidget> {
               fillColor: const Color(0xFFC63B2D),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -89,7 +89,7 @@ class _TigerBoyWidgetState extends State<TigerBoyWidget> {
                     maxLines: 2,
                     style: FlutterFlowTheme.of(context).headlineMedium.override(
                           fontFamily: 'Inter',
-                          color: Colors.white,
+                          color: FlutterFlowTheme.of(context).primaryText,
                           fontSize: 22.0,
                         ),
                   ),

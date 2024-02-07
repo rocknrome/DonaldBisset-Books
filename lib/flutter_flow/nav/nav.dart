@@ -29,12 +29,32 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       initialLocation: '/',
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
-      errorBuilder: (context, state) => const IntroWidget(),
+      errorBuilder: (context, state) => appStateNotifier.showSplashImage
+          ? Builder(
+              builder: (context) => Container(
+                color: Colors.transparent,
+                child: Image.asset(
+                  'assets/images/Splash-modified.png',
+                  fit: BoxFit.contain,
+                ),
+              ),
+            )
+          : const IntroWidget(),
       routes: [
         FFRoute(
           name: '_initialize',
           path: '/',
-          builder: (context, _) => const IntroWidget(),
+          builder: (context, _) => appStateNotifier.showSplashImage
+              ? Builder(
+                  builder: (context) => Container(
+                    color: Colors.transparent,
+                    child: Image.asset(
+                      'assets/images/Splash-modified.png',
+                      fit: BoxFit.contain,
+                    ),
+                  ),
+                )
+              : const IntroWidget(),
         ),
         FFRoute(
           name: 'Intro',
@@ -220,6 +240,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'Gagaga',
           path: '/gagaga',
           builder: (context, params) => const GagagaWidget(),
+        ),
+        FFRoute(
+          name: 'termsconditions',
+          path: '/termsconditions',
+          builder: (context, params) => const TermsconditionsWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

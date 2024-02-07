@@ -13,7 +13,7 @@ class HoppWidget extends StatefulWidget {
   const HoppWidget({super.key});
 
   @override
-  _HoppWidgetState createState() => _HoppWidgetState();
+  State<HoppWidget> createState() => _HoppWidgetState();
 }
 
 class _HoppWidgetState extends State<HoppWidget> {
@@ -67,7 +67,7 @@ class _HoppWidgetState extends State<HoppWidget> {
               fillColor: const Color(0xFF78454A),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -91,7 +91,7 @@ class _HoppWidgetState extends State<HoppWidget> {
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
+                                color: FlutterFlowTheme.of(context).primaryText,
                                 fontSize: 22.0,
                               ),
                     ),

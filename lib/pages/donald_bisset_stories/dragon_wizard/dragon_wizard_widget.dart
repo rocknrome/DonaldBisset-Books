@@ -13,7 +13,7 @@ class DragonWizardWidget extends StatefulWidget {
   const DragonWizardWidget({super.key});
 
   @override
-  _DragonWizardWidgetState createState() => _DragonWizardWidgetState();
+  State<DragonWizardWidget> createState() => _DragonWizardWidgetState();
 }
 
 class _DragonWizardWidgetState extends State<DragonWizardWidget> {
@@ -67,7 +67,7 @@ class _DragonWizardWidgetState extends State<DragonWizardWidget> {
               fillColor: const Color(0xFFFF6036),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -85,14 +85,14 @@ class _DragonWizardWidgetState extends State<DragonWizardWidget> {
                   alignment: const AlignmentDirectional(0.0, 0.0),
                   child: Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 10.0),
+                        const EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 10.0),
                     child: Text(
                       'ДРАКОН И ВОЛШЕБНИК',
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
-                                fontSize: 22.0,
+                                color: FlutterFlowTheme.of(context).primaryText,
+                                fontSize: 20.0,
                               ),
                     ),
                   ),

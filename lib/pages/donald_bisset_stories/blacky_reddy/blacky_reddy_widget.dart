@@ -13,7 +13,7 @@ class BlackyReddyWidget extends StatefulWidget {
   const BlackyReddyWidget({super.key});
 
   @override
-  _BlackyReddyWidgetState createState() => _BlackyReddyWidgetState();
+  State<BlackyReddyWidget> createState() => _BlackyReddyWidgetState();
 }
 
 class _BlackyReddyWidgetState extends State<BlackyReddyWidget> {
@@ -67,7 +67,7 @@ class _BlackyReddyWidgetState extends State<BlackyReddyWidget> {
               fillColor: const Color(0xFFB59304),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -85,14 +85,14 @@ class _BlackyReddyWidgetState extends State<BlackyReddyWidget> {
                   alignment: const AlignmentDirectional(0.0, 0.0),
                   child: Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(35.0, 0.0, 0.0, 10.0),
+                        const EdgeInsetsDirectional.fromSTEB(45.0, 0.0, 0.0, 10.0),
                     child: Text(
                       'БЛЭКИ И РЭДДИ',
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
-                                fontSize: 22.0,
+                                color: FlutterFlowTheme.of(context).primaryText,
+                                fontSize: 20.0,
                               ),
                     ),
                   ),

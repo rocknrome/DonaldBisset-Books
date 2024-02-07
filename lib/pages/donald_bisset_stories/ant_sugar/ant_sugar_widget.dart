@@ -13,7 +13,7 @@ class AntSugarWidget extends StatefulWidget {
   const AntSugarWidget({super.key});
 
   @override
-  _AntSugarWidgetState createState() => _AntSugarWidgetState();
+  State<AntSugarWidget> createState() => _AntSugarWidgetState();
 }
 
 class _AntSugarWidgetState extends State<AntSugarWidget> {
@@ -67,7 +67,7 @@ class _AntSugarWidgetState extends State<AntSugarWidget> {
               fillColor: const Color(0xFF667895),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -85,14 +85,14 @@ class _AntSugarWidgetState extends State<AntSugarWidget> {
                   alignment: const AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(21.0, 0.0, 0.0, 10.0),
+                        const EdgeInsetsDirectional.fromSTEB(40.0, 0.0, 0.0, 10.0),
                     child: Text(
                       'МУРАВЕЙ И САХАР',
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
-                                fontSize: 22.0,
+                                color: FlutterFlowTheme.of(context).primaryText,
+                                fontSize: 20.0,
                               ),
                     ),
                   ),

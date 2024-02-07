@@ -13,7 +13,7 @@ class EagleSheepWidget extends StatefulWidget {
   const EagleSheepWidget({super.key});
 
   @override
-  _EagleSheepWidgetState createState() => _EagleSheepWidgetState();
+  State<EagleSheepWidget> createState() => _EagleSheepWidgetState();
 }
 
 class _EagleSheepWidgetState extends State<EagleSheepWidget> {
@@ -67,7 +67,7 @@ class _EagleSheepWidgetState extends State<EagleSheepWidget> {
               fillColor: const Color(0xFFFF6731),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -91,7 +91,7 @@ class _EagleSheepWidgetState extends State<EagleSheepWidget> {
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
+                                color: FlutterFlowTheme.of(context).primaryText,
                                 fontSize: 22.0,
                               ),
                     ),

@@ -13,7 +13,7 @@ class BugPhilosopherWidget extends StatefulWidget {
   const BugPhilosopherWidget({super.key});
 
   @override
-  _BugPhilosopherWidgetState createState() => _BugPhilosopherWidgetState();
+  State<BugPhilosopherWidget> createState() => _BugPhilosopherWidgetState();
 }
 
 class _BugPhilosopherWidgetState extends State<BugPhilosopherWidget> {
@@ -67,7 +67,7 @@ class _BugPhilosopherWidgetState extends State<BugPhilosopherWidget> {
               fillColor: const Color(0xFF7C786E),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -91,8 +91,8 @@ class _BugPhilosopherWidgetState extends State<BugPhilosopherWidget> {
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
-                                fontSize: 22.0,
+                                color: FlutterFlowTheme.of(context).primaryText,
+                                fontSize: 20.0,
                               ),
                     ),
                   ),

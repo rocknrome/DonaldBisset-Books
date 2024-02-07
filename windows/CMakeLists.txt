@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
-project(books LANGUAGES CXX)
+project(kind_books LANGUAGES CXX)
 
-set(BINARY_NAME "books")
+set(BINARY_NAME "kind_books")
 
 cmake_policy(SET CMP0063 NEW)
 

@@ -13,7 +13,7 @@ class WannaWidget extends StatefulWidget {
   const WannaWidget({super.key});
 
   @override
-  _WannaWidgetState createState() => _WannaWidgetState();
+  State<WannaWidget> createState() => _WannaWidgetState();
 }
 
 class _WannaWidgetState extends State<WannaWidget> {
@@ -67,7 +67,7 @@ class _WannaWidgetState extends State<WannaWidget> {
               fillColor: const Color(0xFF6FB6D3),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -91,7 +91,7 @@ class _WannaWidgetState extends State<WannaWidget> {
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
+                                color: FlutterFlowTheme.of(context).primaryText,
                                 fontSize: 20.0,
                               ),
                     ),

@@ -13,7 +13,7 @@ class WindingRoadWidget extends StatefulWidget {
   const WindingRoadWidget({super.key});
 
   @override
-  _WindingRoadWidgetState createState() => _WindingRoadWidgetState();
+  State<WindingRoadWidget> createState() => _WindingRoadWidgetState();
 }
 
 class _WindingRoadWidgetState extends State<WindingRoadWidget> {
@@ -67,7 +67,7 @@ class _WindingRoadWidgetState extends State<WindingRoadWidget> {
               fillColor: const Color(0xFF375DAD),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -96,7 +96,7 @@ class _WindingRoadWidgetState extends State<WindingRoadWidget> {
                               .headlineMedium
                               .override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
+                                color: FlutterFlowTheme.of(context).primaryText,
                                 fontSize: 22.0,
                               ),
                         ),

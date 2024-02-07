@@ -12,7 +12,7 @@ class JoeJaneWidget extends StatefulWidget {
   const JoeJaneWidget({super.key});
 
   @override
-  _JoeJaneWidgetState createState() => _JoeJaneWidgetState();
+  State<JoeJaneWidget> createState() => _JoeJaneWidgetState();
 }
 
 class _JoeJaneWidgetState extends State<JoeJaneWidget> {
@@ -66,7 +66,7 @@ class _JoeJaneWidgetState extends State<JoeJaneWidget> {
               fillColor: const Color(0xFFCC4072),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -92,7 +92,7 @@ class _JoeJaneWidgetState extends State<JoeJaneWidget> {
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
+                                color: FlutterFlowTheme.of(context).primaryText,
                                 fontSize: 18.0,
                               ),
                     ),

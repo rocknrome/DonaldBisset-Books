@@ -66,3 +66,5 @@ export '/pages/donald_bisset_stories/joe_jane/joe_jane_widget.dart'
     show JoeJaneWidget;
 export '/pages/donald_bisset_stories/gagaga/gagaga_widget.dart'
     show GagagaWidget;
+export '/pages/termsconditions/termsconditions_widget.dart'
+    show TermsconditionsWidget;

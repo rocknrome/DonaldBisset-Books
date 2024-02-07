@@ -13,7 +13,7 @@ class PostmanPigWidget extends StatefulWidget {
   const PostmanPigWidget({super.key});
 
   @override
-  _PostmanPigWidgetState createState() => _PostmanPigWidgetState();
+  State<PostmanPigWidget> createState() => _PostmanPigWidgetState();
 }
 
 class _PostmanPigWidgetState extends State<PostmanPigWidget> {
@@ -67,7 +67,7 @@ class _PostmanPigWidgetState extends State<PostmanPigWidget> {
               fillColor: const Color(0xFFE2BC29),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -93,7 +93,7 @@ class _PostmanPigWidgetState extends State<PostmanPigWidget> {
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
+                                color: FlutterFlowTheme.of(context).primaryText,
                                 fontSize: 20.0,
                               ),
                     ),

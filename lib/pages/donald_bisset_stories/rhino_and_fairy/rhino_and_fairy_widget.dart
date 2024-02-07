@@ -13,7 +13,7 @@ class RhinoAndFairyWidget extends StatefulWidget {
   const RhinoAndFairyWidget({super.key});
 
   @override
-  _RhinoAndFairyWidgetState createState() => _RhinoAndFairyWidgetState();
+  State<RhinoAndFairyWidget> createState() => _RhinoAndFairyWidgetState();
 }
 
 class _RhinoAndFairyWidgetState extends State<RhinoAndFairyWidget> {
@@ -55,19 +55,19 @@ class _RhinoAndFairyWidgetState extends State<RhinoAndFairyWidget> {
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         appBar: AppBar(
-          backgroundColor: const Color(0xFF040001),
+          backgroundColor: FlutterFlowTheme.of(context).alternate,
           automaticallyImplyLeading: false,
           leading: Padding(
             padding: const EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 10.0),
             child: FlutterFlowIconButton(
-              borderColor: const Color(0xFF040001),
+              borderColor: FlutterFlowTheme.of(context).alternate,
               borderRadius: 20.0,
               borderWidth: 1.0,
               buttonSize: 40.0,
-              fillColor: const Color(0xFF040001),
+              fillColor: FlutterFlowTheme.of(context).alternate,
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -91,7 +91,7 @@ class _RhinoAndFairyWidgetState extends State<RhinoAndFairyWidget> {
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
+                                color: FlutterFlowTheme.of(context).primaryText,
                                 fontSize: 22.0,
                               ),
                     ),

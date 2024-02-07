@@ -13,7 +13,7 @@ class EnnabelWidget extends StatefulWidget {
   const EnnabelWidget({super.key});
 
   @override
-  _EnnabelWidgetState createState() => _EnnabelWidgetState();
+  State<EnnabelWidget> createState() => _EnnabelWidgetState();
 }
 
 class _EnnabelWidgetState extends State<EnnabelWidget> {
@@ -67,7 +67,7 @@ class _EnnabelWidgetState extends State<EnnabelWidget> {
               fillColor: const Color(0xFFA1501D),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -91,7 +91,7 @@ class _EnnabelWidgetState extends State<EnnabelWidget> {
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
+                                color: FlutterFlowTheme.of(context).primaryText,
                                 fontSize: 22.0,
                               ),
                     ),

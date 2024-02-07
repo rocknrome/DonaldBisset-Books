@@ -13,7 +13,7 @@ class PiiiWidget extends StatefulWidget {
   const PiiiWidget({super.key});
 
   @override
-  _PiiiWidgetState createState() => _PiiiWidgetState();
+  State<PiiiWidget> createState() => _PiiiWidgetState();
 }
 
 class _PiiiWidgetState extends State<PiiiWidget> {
@@ -67,7 +67,7 @@ class _PiiiWidgetState extends State<PiiiWidget> {
               fillColor: const Color(0xFFB8BDC9),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -91,7 +91,7 @@ class _PiiiWidgetState extends State<PiiiWidget> {
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
+                                color: FlutterFlowTheme.of(context).primaryText,
                                 fontSize: 22.0,
                               ),
                     ),

@@ -13,7 +13,7 @@ class BreadcrumbsWidget extends StatefulWidget {
   const BreadcrumbsWidget({super.key});
 
   @override
-  _BreadcrumbsWidgetState createState() => _BreadcrumbsWidgetState();
+  State<BreadcrumbsWidget> createState() => _BreadcrumbsWidgetState();
 }
 
 class _BreadcrumbsWidgetState extends State<BreadcrumbsWidget> {
@@ -67,7 +67,7 @@ class _BreadcrumbsWidgetState extends State<BreadcrumbsWidget> {
               fillColor: const Color(0xFF38A2B4),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -85,15 +85,15 @@ class _BreadcrumbsWidgetState extends State<BreadcrumbsWidget> {
                   alignment: const AlignmentDirectional(0.0, 0.0),
                   child: Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(23.0, 0.0, 0.0, 10.0),
+                        const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 10.0),
                     child: Text(
                       'ХЛЕБНЫЕ КРОШКИ',
                       textAlign: TextAlign.center,
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
-                                fontSize: 22.0,
+                                color: FlutterFlowTheme.of(context).primaryText,
+                                fontSize: 20.0,
                               ),
                     ),
                   ),

@@ -13,7 +13,7 @@ class DragonComodoWidget extends StatefulWidget {
   const DragonComodoWidget({super.key});
 
   @override
-  _DragonComodoWidgetState createState() => _DragonComodoWidgetState();
+  State<DragonComodoWidget> createState() => _DragonComodoWidgetState();
 }
 
 class _DragonComodoWidgetState extends State<DragonComodoWidget> {
@@ -67,7 +67,7 @@ class _DragonComodoWidgetState extends State<DragonComodoWidget> {
               fillColor: const Color(0xFFFF4773),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -91,7 +91,7 @@ class _DragonComodoWidgetState extends State<DragonComodoWidget> {
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
+                                color: FlutterFlowTheme.of(context).primaryText,
                                 fontSize: 22.0,
                               ),
                     ),

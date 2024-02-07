@@ -13,7 +13,7 @@ class BugBulldozerWidget extends StatefulWidget {
   const BugBulldozerWidget({super.key});
 
   @override
-  _BugBulldozerWidgetState createState() => _BugBulldozerWidgetState();
+  State<BugBulldozerWidget> createState() => _BugBulldozerWidgetState();
 }
 
 class _BugBulldozerWidgetState extends State<BugBulldozerWidget> {
@@ -67,7 +67,7 @@ class _BugBulldozerWidgetState extends State<BugBulldozerWidget> {
               fillColor: const Color(0xFFE35818),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -91,8 +91,8 @@ class _BugBulldozerWidgetState extends State<BugBulldozerWidget> {
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
-                                fontSize: 22.0,
+                                color: FlutterFlowTheme.of(context).primaryText,
+                                fontSize: 20.0,
                               ),
                     ),
                   ),

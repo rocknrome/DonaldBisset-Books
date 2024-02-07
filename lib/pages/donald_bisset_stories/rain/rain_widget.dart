@@ -13,7 +13,7 @@ class RainWidget extends StatefulWidget {
   const RainWidget({super.key});
 
   @override
-  _RainWidgetState createState() => _RainWidgetState();
+  State<RainWidget> createState() => _RainWidgetState();
 }
 
 class _RainWidgetState extends State<RainWidget> {
@@ -67,7 +67,7 @@ class _RainWidgetState extends State<RainWidget> {
               fillColor: const Color(0xFF3A517D),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -91,7 +91,7 @@ class _RainWidgetState extends State<RainWidget> {
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
+                                color: FlutterFlowTheme.of(context).primaryText,
                                 fontSize: 22.0,
                               ),
                     ),

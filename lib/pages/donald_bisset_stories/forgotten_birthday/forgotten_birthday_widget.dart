@@ -13,7 +13,7 @@ class ForgottenBirthdayWidget extends StatefulWidget {
   const ForgottenBirthdayWidget({super.key});
 
   @override
-  _ForgottenBirthdayWidgetState createState() =>
+  State<ForgottenBirthdayWidget> createState() =>
       _ForgottenBirthdayWidgetState();
 }
 
@@ -68,7 +68,7 @@ class _ForgottenBirthdayWidgetState extends State<ForgottenBirthdayWidget> {
               fillColor: const Color(0xFFFE5E74),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 22.0,
               ),
               onPressed: () async {
@@ -86,14 +86,14 @@ class _ForgottenBirthdayWidgetState extends State<ForgottenBirthdayWidget> {
                   alignment: const AlignmentDirectional(0.0, 0.0),
                   child: Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 10.0),
+                        const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 0.0, 10.0),
                     child: Text(
                       'ЗАБЫТЫЙ ДЕНЬ РОЖДЕНИЯ',
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
-                                fontSize: 20.0,
+                                color: FlutterFlowTheme.of(context).primaryText,
+                                fontSize: 16.0,
                               ),
                     ),
                   ),

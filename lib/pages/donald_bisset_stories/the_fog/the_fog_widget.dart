@@ -13,7 +13,7 @@ class TheFogWidget extends StatefulWidget {
   const TheFogWidget({super.key});
 
   @override
-  _TheFogWidgetState createState() => _TheFogWidgetState();
+  State<TheFogWidget> createState() => _TheFogWidgetState();
 }
 
 class _TheFogWidgetState extends State<TheFogWidget> {
@@ -55,19 +55,19 @@ class _TheFogWidgetState extends State<TheFogWidget> {
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         appBar: AppBar(
-          backgroundColor: FlutterFlowTheme.of(context).primaryText,
+          backgroundColor: FlutterFlowTheme.of(context).alternate,
           automaticallyImplyLeading: false,
           leading: Padding(
             padding: const EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 10.0),
             child: FlutterFlowIconButton(
-              borderColor: FlutterFlowTheme.of(context).primaryText,
+              borderColor: FlutterFlowTheme.of(context).alternate,
               borderRadius: 20.0,
               borderWidth: 1.0,
               buttonSize: 40.0,
-              fillColor: FlutterFlowTheme.of(context).primaryText,
+              fillColor: FlutterFlowTheme.of(context).alternate,
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 22.0,
               ),
               onPressed: () async {
@@ -75,33 +75,27 @@ class _TheFogWidgetState extends State<TheFogWidget> {
               },
             ),
           ),
-          title: Align(
-            alignment: const AlignmentDirectional(0.0, 0.0),
-            child: Row(
-              mainAxisSize: MainAxisSize.max,
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Align(
-                  alignment: const AlignmentDirectional(0.0, 0.0),
-                  child: Padding(
-                    padding:
-                        const EdgeInsetsDirectional.fromSTEB(84.0, 0.0, 0.0, 10.0),
-                    child: Text(
-                      'ТУМАН',
-                      style:
-                          FlutterFlowTheme.of(context).headlineMedium.override(
-                                fontFamily: 'Inter',
-                                color: Colors.white,
-                                fontSize: 22.0,
-                              ),
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          ),
           actions: const [],
-          centerTitle: false,
+          flexibleSpace: FlexibleSpaceBar(
+            title: Align(
+              alignment: const AlignmentDirectional(-1.0, 0.0),
+              child: Padding(
+                padding: const EdgeInsetsDirectional.fromSTEB(90.0, 30.0, 0.0, 10.0),
+                child: Text(
+                  'ТУМАН',
+                  textAlign: TextAlign.center,
+                  style: FlutterFlowTheme.of(context).bodyMedium.override(
+                        fontFamily: 'Readex Pro',
+                        fontSize: 20.0,
+                        fontWeight: FontWeight.w500,
+                      ),
+                ),
+              ),
+            ),
+            centerTitle: true,
+            expandedTitleScale: 1.0,
+            titlePadding: const EdgeInsetsDirectional.fromSTEB(80.0, 20.0, 0.0, 0.0),
+          ),
           elevation: 2.0,
         ),
         body: SafeArea(

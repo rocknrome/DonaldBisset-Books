@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "Books" "\0"
+            VALUE "CompanyName", "KindBooks" "\0"
             VALUE "FileDescription", "A new Flutter project." "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "Books" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2022 Books. All rights reserved." "\0"
-            VALUE "OriginalFilename", "books.exe" "\0"
-            VALUE "ProductName", "Books" "\0"
+            VALUE "InternalName", "KindBooks" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2022 KindBooks. All rights reserved." "\0"
+            VALUE "OriginalFilename", "kind_books.exe" "\0"
+            VALUE "ProductName", "KindBooks" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

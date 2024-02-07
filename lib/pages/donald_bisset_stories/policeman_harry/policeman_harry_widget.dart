@@ -13,7 +13,7 @@ class PolicemanHarryWidget extends StatefulWidget {
   const PolicemanHarryWidget({super.key});
 
   @override
-  _PolicemanHarryWidgetState createState() => _PolicemanHarryWidgetState();
+  State<PolicemanHarryWidget> createState() => _PolicemanHarryWidgetState();
 }
 
 class _PolicemanHarryWidgetState extends State<PolicemanHarryWidget> {
@@ -55,19 +55,19 @@ class _PolicemanHarryWidgetState extends State<PolicemanHarryWidget> {
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         appBar: AppBar(
-          backgroundColor: const Color(0xFF143AB2),
+          backgroundColor: FlutterFlowTheme.of(context).secondary,
           automaticallyImplyLeading: false,
           leading: Padding(
             padding: const EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 10.0),
             child: FlutterFlowIconButton(
-              borderColor: const Color(0xFF143AB2),
+              borderColor: FlutterFlowTheme.of(context).secondary,
               borderRadius: 20.0,
               borderWidth: 1.0,
               buttonSize: 40.0,
-              fillColor: const Color(0xFF143AB2),
+              fillColor: FlutterFlowTheme.of(context).secondary,
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -93,7 +93,7 @@ class _PolicemanHarryWidgetState extends State<PolicemanHarryWidget> {
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
+                                color: FlutterFlowTheme.of(context).primaryText,
                                 fontSize: 18.0,
                               ),
                     ),

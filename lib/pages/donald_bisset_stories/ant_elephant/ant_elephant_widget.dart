@@ -13,7 +13,7 @@ class AntElephantWidget extends StatefulWidget {
   const AntElephantWidget({super.key});
 
   @override
-  _AntElephantWidgetState createState() => _AntElephantWidgetState();
+  State<AntElephantWidget> createState() => _AntElephantWidgetState();
 }
 
 class _AntElephantWidgetState extends State<AntElephantWidget> {
@@ -55,19 +55,19 @@ class _AntElephantWidgetState extends State<AntElephantWidget> {
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         appBar: AppBar(
-          backgroundColor: const Color(0xFF32252C),
+          backgroundColor: FlutterFlowTheme.of(context).secondary,
           automaticallyImplyLeading: false,
           leading: Padding(
             padding: const EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 10.0),
             child: FlutterFlowIconButton(
-              borderColor: const Color(0xFF32252C),
+              borderColor: FlutterFlowTheme.of(context).secondary,
               borderRadius: 20.0,
               borderWidth: 1.0,
               buttonSize: 40.0,
-              fillColor: const Color(0xFF32252C),
+              fillColor: FlutterFlowTheme.of(context).secondary,
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -88,7 +88,7 @@ class _AntElephantWidgetState extends State<AntElephantWidget> {
                     alignment: const AlignmentDirectional(0.0, 0.0),
                     child: Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(27.0, 0.0, 0.0, 0.0),
+                          const EdgeInsetsDirectional.fromSTEB(40.0, 0.0, 0.0, 0.0),
                       child: Text(
                         'СЛОН И МУРАВЕЙ',
                         textAlign: TextAlign.center,
@@ -96,8 +96,8 @@ class _AntElephantWidgetState extends State<AntElephantWidget> {
                             .headlineMedium
                             .override(
                               fontFamily: 'Inter',
-                              color: Colors.white,
-                              fontSize: 22.0,
+                              color: FlutterFlowTheme.of(context).primaryText,
+                              fontSize: 20.0,
                             ),
                       ),
                     ),

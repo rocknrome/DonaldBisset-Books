@@ -13,7 +13,7 @@ class GagagaWidget extends StatefulWidget {
   const GagagaWidget({super.key});
 
   @override
-  _GagagaWidgetState createState() => _GagagaWidgetState();
+  State<GagagaWidget> createState() => _GagagaWidgetState();
 }
 
 class _GagagaWidgetState extends State<GagagaWidget> {
@@ -67,7 +67,7 @@ class _GagagaWidgetState extends State<GagagaWidget> {
               fillColor: const Color(0xFF71CEC2),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -91,7 +91,7 @@ class _GagagaWidgetState extends State<GagagaWidget> {
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
+                                color: FlutterFlowTheme.of(context).primaryText,
                                 fontSize: 22.0,
                               ),
                     ),

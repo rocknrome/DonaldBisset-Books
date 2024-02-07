@@ -13,7 +13,7 @@ class LittleBusWidget extends StatefulWidget {
   const LittleBusWidget({super.key});
 
   @override
-  _LittleBusWidgetState createState() => _LittleBusWidgetState();
+  State<LittleBusWidget> createState() => _LittleBusWidgetState();
 }
 
 class _LittleBusWidgetState extends State<LittleBusWidget> {
@@ -67,7 +67,7 @@ class _LittleBusWidgetState extends State<LittleBusWidget> {
               fillColor: const Color(0xFF31A58C),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 22.0,
               ),
               onPressed: () async {
@@ -81,17 +81,21 @@ class _LittleBusWidgetState extends State<LittleBusWidget> {
               mainAxisSize: MainAxisSize.max,
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 10.0),
-                  child: Text(
-                    'ПРО МАЛЮТКУ-АВТОБУС, \nКОТОРЫЙ БОЯЛСЯ ТЕМНОТЫ',
-                    textAlign: TextAlign.center,
-                    maxLines: 2,
-                    style: FlutterFlowTheme.of(context).labelMedium.override(
-                          fontFamily: 'Readex Pro',
-                          color: const Color(0xFFFAEB70),
-                          fontSize: 20.0,
-                        ),
+                Align(
+                  alignment: const AlignmentDirectional(0.0, 0.0),
+                  child: Padding(
+                    padding:
+                        const EdgeInsetsDirectional.fromSTEB(20.0, 0.0, 0.0, 10.0),
+                    child: Text(
+                      'ПРО МАЛЮТКУ-АВТОБУС, \nКОТОРЫЙ БОЯЛСЯ ТЕМНОТЫ',
+                      textAlign: TextAlign.center,
+                      maxLines: 2,
+                      style: FlutterFlowTheme.of(context).labelMedium.override(
+                            fontFamily: 'Readex Pro',
+                            color: FlutterFlowTheme.of(context).primaryText,
+                            fontSize: 16.0,
+                          ),
+                    ),
                   ),
                 ),
               ],

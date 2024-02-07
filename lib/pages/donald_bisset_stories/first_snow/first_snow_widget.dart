@@ -13,7 +13,7 @@ class FirstSnowWidget extends StatefulWidget {
   const FirstSnowWidget({super.key});
 
   @override
-  _FirstSnowWidgetState createState() => _FirstSnowWidgetState();
+  State<FirstSnowWidget> createState() => _FirstSnowWidgetState();
 }
 
 class _FirstSnowWidgetState extends State<FirstSnowWidget> {
@@ -67,7 +67,7 @@ class _FirstSnowWidgetState extends State<FirstSnowWidget> {
               fillColor: const Color(0xFF74BAD7),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -91,7 +91,7 @@ class _FirstSnowWidgetState extends State<FirstSnowWidget> {
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
+                                color: FlutterFlowTheme.of(context).primaryText,
                                 fontSize: 22.0,
                               ),
                     ),

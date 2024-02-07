@@ -13,7 +13,7 @@ class TigerBlinkyWidget extends StatefulWidget {
   const TigerBlinkyWidget({super.key});
 
   @override
-  _TigerBlinkyWidgetState createState() => _TigerBlinkyWidgetState();
+  State<TigerBlinkyWidget> createState() => _TigerBlinkyWidgetState();
 }
 
 class _TigerBlinkyWidgetState extends State<TigerBlinkyWidget> {
@@ -67,7 +67,7 @@ class _TigerBlinkyWidgetState extends State<TigerBlinkyWidget> {
               fillColor: const Color(0xFFEC972C),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -93,8 +93,8 @@ class _TigerBlinkyWidgetState extends State<TigerBlinkyWidget> {
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
-                                fontSize: 16.0,
+                                color: FlutterFlowTheme.of(context).primaryText,
+                                fontSize: 14.0,
                               ),
                     ),
                   ),

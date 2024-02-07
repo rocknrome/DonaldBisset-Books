@@ -13,7 +13,7 @@ class DonaldBissettWidget extends StatefulWidget {
   const DonaldBissettWidget({super.key});
 
   @override
-  _DonaldBissettWidgetState createState() => _DonaldBissettWidgetState();
+  State<DonaldBissettWidget> createState() => _DonaldBissettWidgetState();
 }
 
 class _DonaldBissettWidgetState extends State<DonaldBissettWidget> {
@@ -67,7 +67,7 @@ class _DonaldBissettWidgetState extends State<DonaldBissettWidget> {
               fillColor: const Color(0xFFF971B7),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -87,15 +87,16 @@ class _DonaldBissettWidgetState extends State<DonaldBissettWidget> {
                   children: [
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 0.0, 10.0),
+                          const EdgeInsetsDirectional.fromSTEB(45.0, 0.0, 0.0, 10.0),
                       child: Text(
-                        'Кузнечик Денди',
-                        style:
-                            FlutterFlowTheme.of(context).labelMedium.override(
-                                  fontFamily: 'Readex Pro',
-                                  color: const Color(0xFFF8DAE4),
-                                  fontSize: 30.0,
-                                ),
+                        'КУЗНЕЧИК ДЕНДИ',
+                        style: FlutterFlowTheme.of(context)
+                            .labelMedium
+                            .override(
+                              fontFamily: 'Readex Pro',
+                              color: FlutterFlowTheme.of(context).primaryText,
+                              fontSize: 20.0,
+                            ),
                       ),
                     ),
                   ],

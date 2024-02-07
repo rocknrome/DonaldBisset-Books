@@ -10,7 +10,7 @@ class IntroWidget extends StatefulWidget {
   const IntroWidget({super.key});
 
   @override
-  _IntroWidgetState createState() => _IntroWidgetState();
+  State<IntroWidget> createState() => _IntroWidgetState();
 }
 
 class _IntroWidgetState extends State<IntroWidget> {
@@ -65,7 +65,7 @@ class _IntroWidgetState extends State<IntroWidget> {
                     alignment: const AlignmentDirectional(0.0, 0.0),
                     child: Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 30.0),
+                          const EdgeInsetsDirectional.fromSTEB(10.0, 15.0, 0.0, 10.0),
                       child: Text(
                         'ДОБРЫЕ КНИГИ',
                         textAlign: TextAlign.center,
@@ -95,7 +95,7 @@ class _IntroWidgetState extends State<IntroWidget> {
               Align(
                 alignment: const AlignmentDirectional(0.0, 0.0),
                 child: Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(5.0, 20.0, 5.0, 0.0),
+                  padding: const EdgeInsetsDirectional.fromSTEB(5.0, 10.0, 5.0, 10.0),
                   child: InkWell(
                     splashColor: Colors.transparent,
                     focusColor: Colors.transparent,
@@ -117,15 +117,15 @@ class _IntroWidgetState extends State<IntroWidget> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsetsDirectional.fromSTEB(5.0, 20.0, 5.0, 0.0),
+                padding: const EdgeInsetsDirectional.fromSTEB(5.0, 5.0, 5.0, 0.0),
                 child: FFButtonWidget(
                   onPressed: () {
                     print('Button pressed ...');
                   },
-                  text: 'Created by RockNRome @2024',
+                  text: 'Created by Roman Lab @2024',
                   options: FFButtonOptions(
                     width: double.infinity,
-                    height: 60.0,
+                    height: 36.0,
                     padding:
                         const EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 0.0),
                     iconPadding:
@@ -133,7 +133,36 @@ class _IntroWidgetState extends State<IntroWidget> {
                     color: const Color(0xFF050F16),
                     textStyle: FlutterFlowTheme.of(context).titleSmall.override(
                           fontFamily: 'Readex Pro',
-                          color: Colors.white,
+                          color: FlutterFlowTheme.of(context).tertiary,
+                          fontSize: 14.0,
+                        ),
+                    elevation: 3.0,
+                    borderSide: const BorderSide(
+                      color: Colors.transparent,
+                      width: 1.0,
+                    ),
+                    borderRadius: BorderRadius.circular(8.0),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsetsDirectional.fromSTEB(5.0, 15.0, 5.0, 0.0),
+                child: FFButtonWidget(
+                  onPressed: () async {
+                    context.pushNamed('termsconditions');
+                  },
+                  text: 'Terms and Conditions',
+                  options: FFButtonOptions(
+                    width: double.infinity,
+                    height: 21.0,
+                    padding:
+                        const EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 0.0),
+                    iconPadding:
+                        const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                    color: const Color(0xFF050F16),
+                    textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
+                          fontFamily: 'Readex Pro',
+                          color: FlutterFlowTheme.of(context).tertiary,
                         ),
                     elevation: 3.0,
                     borderSide: const BorderSide(

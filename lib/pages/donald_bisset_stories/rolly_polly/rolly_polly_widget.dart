@@ -13,7 +13,7 @@ class RollyPollyWidget extends StatefulWidget {
   const RollyPollyWidget({super.key});
 
   @override
-  _RollyPollyWidgetState createState() => _RollyPollyWidgetState();
+  State<RollyPollyWidget> createState() => _RollyPollyWidgetState();
 }
 
 class _RollyPollyWidgetState extends State<RollyPollyWidget> {
@@ -67,7 +67,7 @@ class _RollyPollyWidgetState extends State<RollyPollyWidget> {
               fillColor: const Color(0xFFFC5F1A),
               icon: Icon(
                 Icons.arrow_back_ios_new_outlined,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -91,7 +91,7 @@ class _RollyPollyWidgetState extends State<RollyPollyWidget> {
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
+                                color: FlutterFlowTheme.of(context).primaryText,
                                 fontSize: 22.0,
                               ),
                     ),

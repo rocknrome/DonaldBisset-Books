@@ -13,7 +13,7 @@ class HappyRegiWidget extends StatefulWidget {
   const HappyRegiWidget({super.key});
 
   @override
-  _HappyRegiWidgetState createState() => _HappyRegiWidgetState();
+  State<HappyRegiWidget> createState() => _HappyRegiWidgetState();
 }
 
 class _HappyRegiWidgetState extends State<HappyRegiWidget> {
@@ -67,7 +67,7 @@ class _HappyRegiWidgetState extends State<HappyRegiWidget> {
               fillColor: const Color(0xFFFF6731),
               icon: Icon(
                 Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).alternate,
+                color: FlutterFlowTheme.of(context).primaryText,
                 size: 24.0,
               ),
               onPressed: () async {
@@ -85,7 +85,7 @@ class _HappyRegiWidgetState extends State<HappyRegiWidget> {
                   alignment: const AlignmentDirectional(0.0, 0.0),
                   child: Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 10.0),
+                        const EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 10.0),
                     child: Text(
                       'СЧАСТЛИВЫЙ РЕДЖИНАЛЬД',
                       textAlign: TextAlign.center,
@@ -93,8 +93,8 @@ class _HappyRegiWidgetState extends State<HappyRegiWidget> {
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
-                                color: Colors.white,
-                                fontSize: 20.0,
+                                color: FlutterFlowTheme.of(context).primaryText,
+                                fontSize: 16.0,
                               ),
                     ),
                   ),
