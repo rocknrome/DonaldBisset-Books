@@ -55,16 +55,16 @@ class _RainWidgetState extends State<RainWidget> {
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         appBar: AppBar(
-          backgroundColor: const Color(0xFF3A517D),
+          backgroundColor: FlutterFlowTheme.of(context).secondary,
           automaticallyImplyLeading: false,
           leading: Padding(
             padding: const EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 10.0),
             child: FlutterFlowIconButton(
-              borderColor: const Color(0xFF3A517D),
+              borderColor: FlutterFlowTheme.of(context).secondary,
               borderRadius: 20.0,
               borderWidth: 1.0,
               buttonSize: 40.0,
-              fillColor: const Color(0xFF3A517D),
+              fillColor: FlutterFlowTheme.of(context).secondary,
               icon: Icon(
                 Icons.arrow_back_ios_new,
                 color: FlutterFlowTheme.of(context).primaryText,
@@ -92,7 +92,7 @@ class _RainWidgetState extends State<RainWidget> {
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
                                 color: FlutterFlowTheme.of(context).primaryText,
-                                fontSize: 22.0,
+                                fontSize: 20.0,
                               ),
                     ),
                   ),

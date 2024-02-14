@@ -85,7 +85,7 @@ class _BlackyReddyWidgetState extends State<BlackyReddyWidget> {
                   alignment: const AlignmentDirectional(0.0, 0.0),
                   child: Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(45.0, 0.0, 0.0, 10.0),
+                        const EdgeInsetsDirectional.fromSTEB(35.0, 0.0, 0.0, 10.0),
                     child: Text(
                       'БЛЭКИ И РЭДДИ',
                       style:

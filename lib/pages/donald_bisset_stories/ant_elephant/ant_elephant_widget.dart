@@ -88,7 +88,7 @@ class _AntElephantWidgetState extends State<AntElephantWidget> {
                     alignment: const AlignmentDirectional(0.0, 0.0),
                     child: Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(40.0, 0.0, 0.0, 0.0),
+                          const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 0.0),
                       child: Text(
                         'СЛОН И МУРАВЕЙ',
                         textAlign: TextAlign.center,

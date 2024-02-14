@@ -82,7 +82,7 @@ class _TigerBoyWidgetState extends State<TigerBoyWidget> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 0.0, 10.0),
+                  padding: const EdgeInsetsDirectional.fromSTEB(5.0, 0.0, 0.0, 10.0),
                   child: Text(
                     'МАЛЬЧИК, КОТОРЫЙ \nРЫЧАЛ НА ТИГРОВ',
                     textAlign: TextAlign.center,
@@ -90,7 +90,7 @@ class _TigerBoyWidgetState extends State<TigerBoyWidget> {
                     style: FlutterFlowTheme.of(context).headlineMedium.override(
                           fontFamily: 'Inter',
                           color: FlutterFlowTheme.of(context).primaryText,
-                          fontSize: 22.0,
+                          fontSize: 20.0,
                         ),
                   ),
                 ),

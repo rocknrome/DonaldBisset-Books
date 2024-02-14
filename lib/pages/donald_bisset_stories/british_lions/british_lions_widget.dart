@@ -55,16 +55,16 @@ class _BritishLionsWidgetState extends State<BritishLionsWidget> {
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         appBar: AppBar(
-          backgroundColor: const Color(0xFF7C786E),
+          backgroundColor: FlutterFlowTheme.of(context).tertiary,
           automaticallyImplyLeading: false,
           leading: Padding(
             padding: const EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 10.0),
             child: FlutterFlowIconButton(
-              borderColor: const Color(0xFF7C786E),
+              borderColor: FlutterFlowTheme.of(context).tertiary,
               borderRadius: 20.0,
               borderWidth: 1.0,
               buttonSize: 40.0,
-              fillColor: const Color(0xFF7C786E),
+              fillColor: FlutterFlowTheme.of(context).tertiary,
               icon: Icon(
                 Icons.arrow_back_ios_new,
                 color: FlutterFlowTheme.of(context).primaryText,
@@ -85,14 +85,14 @@ class _BritishLionsWidgetState extends State<BritishLionsWidget> {
                   alignment: const AlignmentDirectional(0.0, 0.0),
                   child: Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(22.0, 0.0, 0.0, 10.0),
+                        const EdgeInsetsDirectional.fromSTEB(20.0, 0.0, 0.0, 10.0),
                     child: Text(
                       'БРИТАНСКИЕ ЛЬВЫ',
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
                                 color: FlutterFlowTheme.of(context).primaryText,
-                                fontSize: 22.0,
+                                fontSize: 20.0,
                               ),
                     ),
                   ),

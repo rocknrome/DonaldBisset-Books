@@ -85,14 +85,14 @@ class _FirstSnowWidgetState extends State<FirstSnowWidget> {
                   alignment: const AlignmentDirectional(0.0, 0.0),
                   child: Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(45.0, 0.0, 0.0, 10.0),
+                        const EdgeInsetsDirectional.fromSTEB(40.0, 0.0, 0.0, 10.0),
                     child: Text(
                       'ПЕРВЫЙ СНЕГ',
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
                                 color: FlutterFlowTheme.of(context).primaryText,
-                                fontSize: 22.0,
+                                fontSize: 20.0,
                               ),
                     ),
                   ),

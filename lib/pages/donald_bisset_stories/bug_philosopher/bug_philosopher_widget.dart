@@ -92,7 +92,7 @@ class _BugPhilosopherWidgetState extends State<BugPhilosopherWidget> {
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
                                 color: FlutterFlowTheme.of(context).primaryText,
-                                fontSize: 20.0,
+                                fontSize: 18.0,
                               ),
                     ),
                   ),

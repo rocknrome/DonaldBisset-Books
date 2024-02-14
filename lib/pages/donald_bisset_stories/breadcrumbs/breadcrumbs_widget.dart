@@ -85,7 +85,7 @@ class _BreadcrumbsWidgetState extends State<BreadcrumbsWidget> {
                   alignment: const AlignmentDirectional(0.0, 0.0),
                   child: Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 10.0),
+                        const EdgeInsetsDirectional.fromSTEB(20.0, 0.0, 0.0, 10.0),
                     child: Text(
                       'ХЛЕБНЫЕ КРОШКИ',
                       textAlign: TextAlign.center,

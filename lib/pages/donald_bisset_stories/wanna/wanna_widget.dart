@@ -92,7 +92,7 @@ class _WannaWidgetState extends State<WannaWidget> {
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
                                 color: FlutterFlowTheme.of(context).primaryText,
-                                fontSize: 20.0,
+                                fontSize: 16.0,
                               ),
                     ),
                   ),

@@ -85,7 +85,7 @@ class _KingCrossWidgetState extends State<KingCrossWidget> {
                   alignment: const AlignmentDirectional(0.0, 0.0),
                   child: Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(25.0, 0.0, 0.0, 10.0),
+                        const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 0.0, 10.0),
                     child: Text(
                       'СЕНТ-ПАНКРАС И \nКИНГС-КРОСС',
                       textAlign: TextAlign.center,
@@ -94,7 +94,7 @@ class _KingCrossWidgetState extends State<KingCrossWidget> {
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
                                 color: FlutterFlowTheme.of(context).primaryText,
-                                fontSize: 22.0,
+                                fontSize: 20.0,
                               ),
                     ),
                   ),

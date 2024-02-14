@@ -89,7 +89,7 @@ class _WindingRoadWidgetState extends State<WindingRoadWidget> {
                       alignment: const AlignmentDirectional(0.0, 0.0),
                       child: Padding(
                         padding: const EdgeInsetsDirectional.fromSTEB(
-                            35.0, 0.0, 0.0, 10.0),
+                            40.0, 0.0, 0.0, 10.0),
                         child: Text(
                           'КРИВАЯ ДОРОГА',
                           style: FlutterFlowTheme.of(context)
@@ -97,7 +97,7 @@ class _WindingRoadWidgetState extends State<WindingRoadWidget> {
                               .override(
                                 fontFamily: 'Inter',
                                 color: FlutterFlowTheme.of(context).primaryText,
-                                fontSize: 22.0,
+                                fontSize: 20.0,
                               ),
                         ),
                       ),

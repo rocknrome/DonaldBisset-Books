@@ -94,7 +94,7 @@ class _TigerBlinkyWidgetState extends State<TigerBlinkyWidget> {
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
                                 color: FlutterFlowTheme.of(context).primaryText,
-                                fontSize: 14.0,
+                                fontSize: 12.0,
                               ),
                     ),
                   ),

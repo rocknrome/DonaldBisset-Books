@@ -87,7 +87,7 @@ class _LittlePigLearnsToFlyWidgetState
                   alignment: const AlignmentDirectional(0.0, 0.0),
                   child: Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(60.0, 0.0, 0.0, 10.0),
+                        const EdgeInsetsDirectional.fromSTEB(60.0, 0.0, 0.0, 5.0),
                     child: Text(
                       'ПРО ПОРОСЁНКА, \nКОТОРЫЙ \nУЧИЛСЯ ЛЕТАТЬ',
                       textAlign: TextAlign.center,

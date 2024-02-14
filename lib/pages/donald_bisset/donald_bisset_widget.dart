@@ -64,7 +64,7 @@ class _DonaldBissetWidgetState extends State<DonaldBissetWidget> {
                   alignment: const AlignmentDirectional(0.0, 0.0),
                   child: Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(75.0, 0.0, 0.0, 10.0),
+                        const EdgeInsetsDirectional.fromSTEB(90.0, 0.0, 0.0, 10.0),
                     child: Text(
                       'ДОНАЛЬД БИССЕТ\nСказки',
                       textAlign: TextAlign.center,
@@ -73,7 +73,7 @@ class _DonaldBissetWidgetState extends State<DonaldBissetWidget> {
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
                                 color: Colors.white,
-                                fontSize: 22.0,
+                                fontSize: 20.0,
                               ),
                     ),
                   ),

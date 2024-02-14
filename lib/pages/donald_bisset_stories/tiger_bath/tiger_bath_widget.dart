@@ -94,7 +94,7 @@ class _TigerBathWidgetState extends State<TigerBathWidget> {
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
                                 color: FlutterFlowTheme.of(context).primaryText,
-                                fontSize: 20.0,
+                                fontSize: 16.0,
                               ),
                     ),
                   ),

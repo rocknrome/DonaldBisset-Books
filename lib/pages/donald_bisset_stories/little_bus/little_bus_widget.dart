@@ -85,7 +85,7 @@ class _LittleBusWidgetState extends State<LittleBusWidget> {
                   alignment: const AlignmentDirectional(0.0, 0.0),
                   child: Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(20.0, 0.0, 0.0, 10.0),
+                        const EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 10.0),
                     child: Text(
                       'ПРО МАЛЮТКУ-АВТОБУС, \nКОТОРЫЙ БОЯЛСЯ ТЕМНОТЫ',
                       textAlign: TextAlign.center,

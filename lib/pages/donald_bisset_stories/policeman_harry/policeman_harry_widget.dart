@@ -82,12 +82,12 @@ class _PolicemanHarryWidgetState extends State<PolicemanHarryWidget> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Align(
-                  alignment: const AlignmentDirectional(0.0, 0.0),
+                  alignment: const AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
                     padding:
                         const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 10.0),
                     child: Text(
-                      'ПРО ПОЛИСМЕНА АРТУРА И \nПРО ЕГО КОНЯ ГАРРИ',
+                      'ПРО ПОЛИСМЕНА АРТУРА \nИ ПРО ЕГО КОНЯ ГАРРИ',
                       textAlign: TextAlign.center,
                       maxLines: 2,
                       style:

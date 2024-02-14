@@ -57,30 +57,27 @@ class _TheFogWidgetState extends State<TheFogWidget> {
         appBar: AppBar(
           backgroundColor: FlutterFlowTheme.of(context).alternate,
           automaticallyImplyLeading: false,
-          leading: Padding(
-            padding: const EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 10.0),
-            child: FlutterFlowIconButton(
-              borderColor: FlutterFlowTheme.of(context).alternate,
-              borderRadius: 20.0,
-              borderWidth: 1.0,
-              buttonSize: 40.0,
-              fillColor: FlutterFlowTheme.of(context).alternate,
-              icon: Icon(
-                Icons.arrow_back_ios_new,
-                color: FlutterFlowTheme.of(context).primaryText,
-                size: 22.0,
-              ),
-              onPressed: () async {
-                context.pushNamed('DonaldBisset');
-              },
+          leading: FlutterFlowIconButton(
+            borderColor: FlutterFlowTheme.of(context).alternate,
+            borderRadius: 20.0,
+            borderWidth: 1.0,
+            buttonSize: 40.0,
+            fillColor: FlutterFlowTheme.of(context).alternate,
+            icon: Icon(
+              Icons.arrow_back_ios_new,
+              color: FlutterFlowTheme.of(context).primaryText,
+              size: 24.0,
             ),
+            onPressed: () async {
+              context.pushNamed('DonaldBisset');
+            },
           ),
           actions: const [],
           flexibleSpace: FlexibleSpaceBar(
             title: Align(
-              alignment: const AlignmentDirectional(-1.0, 0.0),
+              alignment: const AlignmentDirectional(0.0, 1.0),
               child: Padding(
-                padding: const EdgeInsetsDirectional.fromSTEB(90.0, 30.0, 0.0, 10.0),
+                padding: const EdgeInsetsDirectional.fromSTEB(0.0, 15.0, 0.0, 5.0),
                 child: Text(
                   'ТУМАН',
                   textAlign: TextAlign.center,
@@ -94,7 +91,6 @@ class _TheFogWidgetState extends State<TheFogWidget> {
             ),
             centerTitle: true,
             expandedTitleScale: 1.0,
-            titlePadding: const EdgeInsetsDirectional.fromSTEB(80.0, 20.0, 0.0, 0.0),
           ),
           elevation: 2.0,
         ),

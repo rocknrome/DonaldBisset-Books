@@ -85,14 +85,14 @@ class _RollyPollyWidgetState extends State<RollyPollyWidget> {
                   alignment: const AlignmentDirectional(0.0, 0.0),
                   child: Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(40.0, 0.0, 0.0, 10.0),
+                        const EdgeInsetsDirectional.fromSTEB(35.0, 0.0, 0.0, 10.0),
                     child: Text(
                       'СОРОКОНОЖКА',
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
                                 color: FlutterFlowTheme.of(context).primaryText,
-                                fontSize: 22.0,
+                                fontSize: 20.0,
                               ),
                     ),
                   ),

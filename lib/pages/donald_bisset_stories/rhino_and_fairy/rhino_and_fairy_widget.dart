@@ -92,7 +92,7 @@ class _RhinoAndFairyWidgetState extends State<RhinoAndFairyWidget> {
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
                                 color: FlutterFlowTheme.of(context).primaryText,
-                                fontSize: 22.0,
+                                fontSize: 18.0,
                               ),
                     ),
                   ),

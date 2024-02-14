@@ -85,7 +85,7 @@ class _HappyRegiWidgetState extends State<HappyRegiWidget> {
                   alignment: const AlignmentDirectional(0.0, 0.0),
                   child: Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 10.0),
+                        const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 10.0),
                     child: Text(
                       'СЧАСТЛИВЫЙ РЕДЖИНАЛЬД',
                       textAlign: TextAlign.center,

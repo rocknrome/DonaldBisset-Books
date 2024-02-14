@@ -84,7 +84,7 @@ class _JoeJaneWidgetState extends State<JoeJaneWidget> {
                   alignment: const AlignmentDirectional(0.0, 0.0),
                   child: Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(25.0, 0.0, 0.0, 10.0),
+                        const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 0.0, 10.0),
                     child: Text(
                       'ПИНГВИНЧИК ДЖО И \nЧЕРЕПАШКА ДЖЕЙН',
                       textAlign: TextAlign.center,

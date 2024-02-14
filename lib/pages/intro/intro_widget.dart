@@ -117,7 +117,7 @@ class _IntroWidgetState extends State<IntroWidget> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsetsDirectional.fromSTEB(5.0, 5.0, 5.0, 0.0),
+                padding: const EdgeInsetsDirectional.fromSTEB(5.0, 0.0, 5.0, 0.0),
                 child: FFButtonWidget(
                   onPressed: () {
                     print('Button pressed ...');
@@ -146,7 +146,7 @@ class _IntroWidgetState extends State<IntroWidget> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsetsDirectional.fromSTEB(5.0, 15.0, 5.0, 0.0),
+                padding: const EdgeInsetsDirectional.fromSTEB(5.0, 5.0, 5.0, 0.0),
                 child: FFButtonWidget(
                   onPressed: () async {
                     context.pushNamed('termsconditions');

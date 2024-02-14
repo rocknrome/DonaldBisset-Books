@@ -86,7 +86,7 @@ class _ForgottenBirthdayWidgetState extends State<ForgottenBirthdayWidget> {
                   alignment: const AlignmentDirectional(0.0, 0.0),
                   child: Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(15.0, 0.0, 0.0, 10.0),
+                        const EdgeInsetsDirectional.fromSTEB(5.0, 0.0, 0.0, 10.0),
                     child: Text(
                       'ЗАБЫТЫЙ ДЕНЬ РОЖДЕНИЯ',
                       style:

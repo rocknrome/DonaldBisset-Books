@@ -85,14 +85,14 @@ class _GagagaWidgetState extends State<GagagaWidget> {
                   alignment: const AlignmentDirectional(0.0, 0.0),
                   child: Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(77.0, 0.0, 0.0, 10.0),
+                        const EdgeInsetsDirectional.fromSTEB(70.0, 0.0, 0.0, 10.0),
                     child: Text(
                       'ГА-ГА-ГА',
                       style:
                           FlutterFlowTheme.of(context).headlineMedium.override(
                                 fontFamily: 'Inter',
                                 color: FlutterFlowTheme.of(context).primaryText,
-                                fontSize: 22.0,
+                                fontSize: 20.0,
                               ),
                     ),
                   ),

@@ -87,7 +87,7 @@ class _DonaldBissettWidgetState extends State<DonaldBissettWidget> {
                   children: [
                     Padding(
                       padding:
-                          const EdgeInsetsDirectional.fromSTEB(45.0, 0.0, 0.0, 10.0),
+                          const EdgeInsetsDirectional.fromSTEB(30.0, 0.0, 0.0, 10.0),
                       child: Text(
                         'КУЗНЕЧИК ДЕНДИ',
                         style: FlutterFlowTheme.of(context)

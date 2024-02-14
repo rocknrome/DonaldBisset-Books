@@ -85,7 +85,7 @@ class _AntSugarWidgetState extends State<AntSugarWidget> {
                   alignment: const AlignmentDirectional(-1.0, 0.0),
                   child: Padding(
                     padding:
-                        const EdgeInsetsDirectional.fromSTEB(40.0, 0.0, 0.0, 10.0),
+                        const EdgeInsetsDirectional.fromSTEB(25.0, 0.0, 0.0, 10.0),
                     child: Text(
                       'МУРАВЕЙ И САХАР',
                       style:
